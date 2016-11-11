@@ -1,17 +1,23 @@
 
 # ************  一些资料汇总  ************
+								前言
+								
+# 一.必备
+## 1.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./ruby.taobao.org停止更新使用cocoapods更新rubychina源.md)								
 
-# 一.RN学习资料分享
+
+
+# 二.RN学习资料分享
 ## 推荐系统学习网站
-### 1. [RN中文网](http://reactnative.cn)
-### 2.[facebook-React-native官网](https://facebook.github.io/react-native/)
-### 3.[极客学院](http://wiki.jikexueyuan.com/project/react-native/)
+### 2.1[RN中文网](http://reactnative.cn)
+### 2.2[facebook-React-native官网](https://facebook.github.io/react-native/)
+### 2.3[极客学院](http://wiki.jikexueyuan.com/project/react-native/)
 
-##2.react-native-training 
+##react-native-training 
 
 [戳我一下呀](https://www.gitbook.com/book/unbug/react-native-training/details)
 
-##3直达视频部分(非培训机构视频)
+##直达视频部分(非培训机构视频)
 [优酷地址](http://list.youku.com/albumlist/show?id=27615900&ascending=1&page=1)
 
 
@@ -24,7 +30,7 @@
 
 4.[糗事百科](https://github.com/stormhouse/QiuShiReactNative)
 
-##4.仓库其他资料明细
+##ReactNativeSources文件夹明细
 
 #### 1.【简寻沙龙】《加速创业的魔法-React Native》 张旭.pdf
 #### 2.移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
