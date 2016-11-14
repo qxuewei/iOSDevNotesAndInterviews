@@ -3,7 +3,9 @@
 								前言
 								
 # 一.必备
-## 1.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./ruby.taobao.org停止更新使用cocoapods更新rubychina源.md)								
+## 1.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./ruby.taobao.org停止更新使用cocoapods更新rubychina源.md)	
+## 1.2 [Git_指令指南](./Git_user.md)	
+							
 
 
 
