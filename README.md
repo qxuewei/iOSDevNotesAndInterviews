@@ -3,11 +3,10 @@
 								前言
 								
 # 一.必备
-## 1.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./ruby.taobao.org停止更新使用cocoapods更新rubychina源.md)	
-## 1.2 [Git_指令指南](./Git_user.md)	
-							
-
-
+## 1.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)	
+## 1.2 [Git_指令指南](./Git_user.md)
+## 1.3 [Gitflow工作流](./gitflow.md) 	
+						
 
 # 二.RN学习资料分享
 ## 推荐系统学习网站
@@ -32,8 +31,8 @@
 
 4.[糗事百科](https://github.com/stormhouse/QiuShiReactNative)
 
-##ReactNativeSources文件夹明细
-
+##ReactNativeSources文件夹明细 (已经迁移文件到coding)
+[直达地址](https://coding.net/u/LFL/p/GitHubRepo/git)
 #### 1.【简寻沙龙】《加速创业的魔法-React Native》 张旭.pdf
 #### 2.移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
 #### 3.（方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
