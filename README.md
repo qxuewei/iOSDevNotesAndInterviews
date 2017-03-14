@@ -5,7 +5,9 @@
 # 一.必备
 ## 1.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)	
 ## 1.2 [Git_指令指南](./Git_user.md)
-## 1.3 [Gitflow工作流](./gitflow.md) 	
+## 1.3 [Gitflow工作流](./gitflow.md) 
+## 1.4 [ReactNative-install](./ReactNative-install .md) 	
+
 						
 
 # 二.RN学习资料分享
