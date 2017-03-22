@@ -1,20 +1,23 @@
 
 # ************  一些资料汇总  ************
 								前言
+# 面试部分
+## 1.1[MrPeak的面试题目](./interview-iOS PartOne.md)								
 								
-# 一.必备
-## 1.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)	
-## 1.2 [Git_指令指南](./Git_user.md)
-## 1.3 [Gitflow工作流](./gitflow.md) 
-## 1.4 [ReactNative-install](./ReactNative-install .md) 	
+					
+# 二.必备
+## 2.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)	
+## 2.2 [Git_指令指南](./Git_user.md)
+## 2.3 [Gitflow工作流](./gitflow.md) 
+## 2.4 [ReactNative-install](./ReactNative-install .md) 	
 
 						
 
-# 二.RN学习资料分享
+# 三.RN学习资料分享
 ## 推荐系统学习网站
-### 2.1[RN中文网](http://reactnative.cn)
-### 2.2[facebook-React-native官网](https://facebook.github.io/react-native/)
-### 2.3[极客学院](http://wiki.jikexueyuan.com/project/react-native/)
+### 3.1[RN中文网](http://reactnative.cn)
+### 3.2[facebook-React-native官网](https://facebook.github.io/react-native/)
+### 3.3[极客学院](http://wiki.jikexueyuan.com/project/react-native/)
 
 ##react-native-training 
 
