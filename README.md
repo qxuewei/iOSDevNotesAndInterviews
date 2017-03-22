@@ -1,16 +1,17 @@
 
-# ************  一些资料汇总  ************
-								前言
-# 面试部分
-## 1.1[MrPeak的面试题目](./interview-iOSPartOne.md)								
-								
+# ************  一些开发相关资料 ************
+									前言
+# interview About iOS
+## 1.1[MrPeak的面试题目](./interview-iOSPartOne.md)
+## 1.2[Core Animation框架结构及性能调优大图慎点](./Core Animation框架结构及性能调优/readme.md)					
 					
-# 二.必备
-## 2.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)	
+									
+# 二.other 
+
+## 2.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)
 ## 2.2 [Git_指令指南](./Git_user.md)
 ## 2.3 [Gitflow工作流](./gitflow.md) 
-## 2.4 [ReactNative-install](./ReactNative-install .md) 	
-
+## 2.4 [ReactNative-install ](./ReactNative-install .md) 
 						
 
 # 三.RN学习资料分享
@@ -28,20 +29,14 @@
 
 
 ## 开源资料部分
-1.[官方参考](https://github.com/facebook/react-native/tree/master/Examples)
+[官方参考](https://github.com/facebook/react-native/tree/master/Examples)
 
-2.[新闻类](https://github.com/bradoyler/newswatch-react-native)
 
-3.[模仿天猫首页](https://github.com/hugohua/react-native-demo)
-
-4.[糗事百科](https://github.com/stormhouse/QiuShiReactNative)
-
-##ReactNativeSources文件夹明细 (已经迁移文件到coding)
+##ReactNativeSources文件夹明细 (已经迁移文件到coding,不然下载速度慢)
 [直达地址](https://coding.net/u/LFL/p/GitHubRepo/git)
 #### 1.【简寻沙龙】《加速创业的魔法-React Native》 张旭.pdf
 #### 2.移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
 #### 3.（方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
 
-
 # 二.如果你有好的资源,也可以提交或者联系我. 
- <dragonli_52171@163.com>   
+	`dragonli_52171@163.com`
