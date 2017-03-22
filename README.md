@@ -2,7 +2,7 @@
 # ************  一些资料汇总  ************
 								前言
 # 面试部分
-## 1.1[MrPeak的面试题目](./interview-iOS PartOne.md)								
+## 1.1[MrPeak的面试题目](./interview-iOSPartOne.md)								
 								
 					
 # 二.必备
