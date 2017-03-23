@@ -2,8 +2,9 @@
 # ************  一些开发相关资料 ************
 									前言
 # interview About iOS
-## 1.1[MrPeak的面试题目](./interview-iOSPartOne.md)
-## 1.2[Core Animation框架结构及性能调优大图慎点](./Core Animation框架结构及性能调优/readme.md)					
+## 1.1 [MrPeak的面试题目](./interview-iOSPartOne.md)
+## 1.2 [interview-iOSPartTwo](./interview-iOSPartTwo.md)
+## 1.3 [Core Animation框架结构及性能调优大图慎点](./Core-Animation框架结构及性能调优/readme.md)					
 					
 									
 # 二.other 
@@ -11,7 +12,7 @@
 ## 2.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)
 ## 2.2 [Git_指令指南](./Git_user.md)
 ## 2.3 [Gitflow工作流](./gitflow.md) 
-## 2.4 [ReactNative-install ](./ReactNative-install .md) 
+## 2.4 [ReactNative-install](./ReactNative-install.md) 
 						
 
 # 三.RN学习资料分享
