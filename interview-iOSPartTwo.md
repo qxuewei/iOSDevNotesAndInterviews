@@ -1,5 +1,15 @@
 # interview-iOS PartTwo
 
+
+## weak修饰的释放则自动被置为nil的实现原理
+- Runtime维护着一个Weak表，用于存储指向某个对象的所有Weak指针
+- Weak表是Hash表，Key是所指对象的地址，Value是Weak指针地址的数组
+- 在对象被回收的时候，经过层层调用，会最终触发下面的方法将所有Weak指针的值设为nil。
+- runtime源码，objc-weak.m 的 arr_clear_deallocating 函数
+- weak指针的使用涉及到Hash表的增删改查，有一定的性能开销.
+
+
+
 ## HTTPS的加密原理
 - 服务器端用非对称加密(RSA)生成公钥和私钥
 - 然后把公钥发给客户端, 服务器则保存私钥
@@ -43,42 +53,6 @@
   - 一看到“用户强制退出”，首先可能想到的双击Home键，然后关闭应用程序。不过这种场景一般是不会产生crash日志的，因为双击Home键后，所有的应用程序都处于后台状态，而iOS随时都有可能关闭后台进程，当应用阻塞界面并停止响应时这种场景才会产生crash日志。这里指的“用户强制退出”场景，是稍微比较复杂点的操作：先按住电源键，直到出现“滑动关机”的界面时，再按住Home键，这时候当前应用程序会被终止掉，并且产生一份相应事件的crash日志。
 
   
-##crash的收集和定位bug的方式谈下
-- iTunes Connect（Manage Your Applications - View Details - Crash Reports),但是前提用户设置->隐私->诊断与用量->诊断与用量数据开启.一般不推荐
-- 自己实现应用内崩溃收集，并上传服务器.(收集异常，存储到本地，下次用户打开程序时上传给我们)
-  - 在程序启动时加上一个异常捕获监听，用来处理程序崩溃时的回调动作UncaughtExceptionHandler是一个函数指针，该函数需要我们实现，可以取自己想要的名字。当程序发生异常崩溃时，该函数会得到调用，这跟C，C++中的回调函数的概念是一样的
-
-  ```
-  NSSetUncaughtExceptionHandler (&UncaughtExceptionHandler)。 程序启动代理方法
-  //:collection crash info by DragonLi
-void UncaughtExceptionHandler(NSException *exception) {
-    NSArray *callStack = [exception callStackSymbols];
-    NSString *reason = [exception reason];
-    NSString *name = [exception name];
-    
-    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
-    [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
-    NSString * dateStr = [formatter stringFromDate:[NSDate date]];
-    
-    NSString * iOS_Version = [[UIDevice currentDevice] systemVersion];
-    NSString * PhoneSize    =   NSStringFromCGSize([[UIScreen mainScreen] bounds].size);
-    NSString * App_Version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
-    NSString * iPhoneType = @"当前设备名字";
-    NSString *uploadString = @"所有拼接信息";
-    // 存储到本地沙盒.下次启动找寻
-}
-  
-  ```
-
-- 第三方收集crash (比如说集成友盟,使用dYSM分析定位代码)
-
-## weak修饰的释放则自动被置为nil的实现原理
-- Runtime维护着一个Weak表，用于存储指向某个对象的所有Weak指针
-- Weak表是Hash表，Key是所指对象的地址，Value是Weak指针地址的数组
-- 在对象被回收的时候，经过层层调用，会最终触发下面的方法将所有Weak指针的值设为nil。
-- runtime源码，objc-weak.m 的 arr_clear_deallocating 函数
-- weak指针的使用涉及到Hash表的增删改查，有一定的性能开销.
-
 
 ## 分析下SDWebImage 
 ### 1.SDWebImage 加载图片的流程
@@ -130,7 +104,41 @@ void UncaughtExceptionHandler(NSException *exception) {
 
 
 ### 3.内部做Decoder的原因 (典型的空间换时间)
-  由于UIImage的imageWithData函数是每次画图的时候才将Data解压成ARGB的图像，所以在每次画图的时候，会有一个解压操作，这样效率很低，但是只有瞬时的内存需求。为了提高效率通过SDWebImageDecoder将包装在Data下的资源解压，然后画在另外一张图片上，这样这张新图片就不再需要重复解压了 
+  由于UIImage的imageWithData函数是每次画图的时候才将Data解压成ARGB的图像，所以在每次画图的时候，会有一个解压操作，这样效率很低，但是只有瞬时的内存需求。为了提高效率通过SDWebImageDecoder将包装在Data下的资源解压，然后画在另外一张图片上，这样这张新图片就不再需要重复解压了   
+  
+ 
+  
+##crash的收集和定位bug的方式谈下
+- iTunes Connect（Manage Your Applications - View Details - Crash Reports),但是前提用户设置->隐私->诊断与用量->诊断与用量数据开启.一般不推荐
+- 自己实现应用内崩溃收集，并上传服务器.(收集异常，存储到本地，下次用户打开程序时上传给我们)
+  - 在程序启动时加上一个异常捕获监听，用来处理程序崩溃时的回调动作UncaughtExceptionHandler是一个函数指针，该函数需要我们实现，可以取自己想要的名字。当程序发生异常崩溃时，该函数会得到调用，这跟C，C++中的回调函数的概念是一样的
+
+  ```
+  NSSetUncaughtExceptionHandler (&UncaughtExceptionHandler)。 程序启动代理方法
+  //:collection crash info by DragonLi
+void UncaughtExceptionHandler(NSException *exception) {
+    NSArray *callStack = [exception callStackSymbols];
+    NSString *reason = [exception reason];
+    NSString *name = [exception name];
+    
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"YYYY-MM-dd HH:mm:ss"];
+    NSString * dateStr = [formatter stringFromDate:[NSDate date]];
+    
+    NSString * iOS_Version = [[UIDevice currentDevice] systemVersion];
+    NSString * PhoneSize    =   NSStringFromCGSize([[UIScreen mainScreen] bounds].size);
+    NSString * App_Version = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+    NSString * iPhoneType = @"当前设备名字";
+    NSString *uploadString = @"所有拼接信息";
+    // 存储到本地沙盒.下次启动找寻
+}
+  
+  ```
+
+- 第三方收集crash (比如说集成友盟,使用dYSM分析定位代码)
+
+
+
 
 
 
