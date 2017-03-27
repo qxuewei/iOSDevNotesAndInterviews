@@ -2,10 +2,13 @@
 # ************  一些开发相关资料 ************
 									前言
 # interview About iOS
-## 1.1 [MrPeak的面试题目](./interview-iOSPartOne.md)
-## 1.2 [interview-iOSPartTwo](./interview-iOSPartTwo.md)
-## 1.3 [interview-iOSPartThree](./interview-iOSPartThree.md)
-## 1.4 [Core Animation框架结构及性能调优大图慎点](./Core-Animation框架结构及性能调优/readme.md)					
+## 1.1 [MrPeak的面试题目](./interview-Set(iOS)/interview-iOSPartOne.md)
+## 1.2 [interview-iOSPartTwo](./interview-Set(iOS)/interview-iOSPartTwo.md)
+## 1.3 [interview-iOSPartThree](./interview-Set(iOS)/interview-iOSPartThree.md)
+## 1.4[interview-iOSPartFour](./interview-Set(iOS)/interview-iOSPartFour.md)
+
+
+## [Core Animation框架结构及性能调优大图慎点](./Core-Animation框架结构及性能调优/readme.md)					
 					
 									
 # 二.other 
