@@ -67,6 +67,40 @@
     
 ```
 
+## 熟悉 CocoaPods 么？能大概讲一下工作原理么？
+- CocoaPods注意点:CocoaPods在pod install以后会生成一个Podfile.lock的文件,这个文件在多人协作开发的时候就不能加入在.gitignore中,因为这个文件会锁定当前各依赖库的版本,就算之后再pod install也不会更改版本,不提交上去的话就可以防止第三方库升级后造成大家各自的第三方库版本不同
+
+
+- CocoaPods原理 :
+- > 1.Pods项目最终会编译成一个名为libPods.a的文件,主项目只需要依赖这个.a文件即可 
+- > 2.对于资源文件,CocoaPods提供了一个名为Pods-resources.sh的bash脚本,该脚本在每次项目编译的时候都会执行,将第三方的各种资源文件复制到目标目录中
+- > 3.CocoaPods通过一个名为Pods.xcconfig的文件在编译时设置所有的依赖和参数
+
+
+
+## 使用SDWebImage内存爆涨的问题遇到没,怎么解决
+- 产生的源码部分如下
+
+```
+- (UIImage *)diskImageForKey:(NSString *)key {
+    NSData *data = [self diskImageDataBySearchingAllPathsForKey:key];
+    if (data) {
+        UIImage *image = [UIImage sd_imageWithData:data];
+        image = [self scaledImageForKey:key image:image];
+        if (self.shouldDecompressImages) {
+            image = [UIImage decodedImageWithImage:image];
+        }
+        return image;
+    }
+    else {
+        return nil;
+    }
+}
+```
+
+- 在某个VC出栈的时候清除比较合适，因为有可能用户不会再去显示那些图片，但是这些图片依旧占着内存 ` [[SDImageCache sharedImageCache] setValue:nil forKey:@"memCache"];` 
+
+
 
 ## 项目中你是怎么处理网络速度慢、中断抖动等网络请求中的问题?
 - 等待补充
