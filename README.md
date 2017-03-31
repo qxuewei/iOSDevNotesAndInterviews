@@ -1,21 +1,21 @@
 
 # ************  一些开发相关资料 ************
 									前言
-# interview About iOS
+# 一: interview About iOS 
 ## 1.1 [MrPeak的面试题目](./interview-Set(iOS)/interview-iOSPartOne.md)
 ## 1.2 [interview-iOSPartTwo](./interview-Set(iOS)/interview-iOSPartTwo.md)
 ## 1.3 [interview-iOSPartThree](./interview-Set(iOS)/interview-iOSPartThree.md)
 ## 1.4[interview-iOSPartFour](./interview-Set(iOS)/interview-iOSPartFour.md)
 
 
-## [Core Animation框架结构及性能调优大图慎点](./Core-Animation框架结构及性能调优/readme.md)					
+##1.5[Core Animation框架结构及性能调优大图慎点](./Core-Animation框架结构及性能调优/readme.md)					
 					
 									
-# 二.other 
+# 二.Git
 
 ## 2.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)
-## 2.2 [Git_指令指南](./Git_user.md)
-## 2.3 [Gitflow工作流](./gitflow.md) 
+## 2.2 [Git指令总结文稿](./Git/Git_user.md)
+## 2.3 [Gitflow工作流](./Git/gitflow.md) 
 ## 2.4 [ReactNative-install](./ReactNative-install.md) 
 						
 
@@ -44,6 +44,7 @@
 #### 2.移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
 #### 3.（方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
 
-# 二.如果你有好的资源,也可以提交或者联系我. 
+# 四: 如果你有好的资源,也可以提交或者联系我
+
 # [GitHub HomePage](https://github.com/DevDragonLi)
 	`dragonli_52171@163.com`
