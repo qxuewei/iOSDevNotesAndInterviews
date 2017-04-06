@@ -11,12 +11,13 @@
 ##1.5[Core Animation框架结构及性能调优大图慎点](./Core-Animation框架结构及性能调优/readme.md)					
 					
 									
-# 二.Git
+# 二.Other
 
 ## 2.1[ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./cocoapodsrubychinaRepo.md)
 ## 2.2 [Git指令总结文稿](./Git/Git_user.md)
 ## 2.3 [Gitflow工作流](./Git/gitflow.md) 
 ## 2.4 [ReactNative-install](./ReactNative-install.md) 
+##  2.5 [Markdown-使用](./Markdown-User.md)
 						
 
 # 三.RN学习资料分享
