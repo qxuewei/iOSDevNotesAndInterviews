@@ -1,4 +1,4 @@
-#2017-3.30 公司内部 `分享` Git 文稿-DragonLi 
+#  Git`分享`  -DragonLi 
 				
 				
 # 一 : why Git?	
@@ -90,6 +90,8 @@
 - git push [remote] --tags 提交所有tag
 
 - git checkout -b [branch] [tag] 新建一个分支，指向某个tag 
+
+- git push origin :refs/tags/tagName 
 
 
 ## 3.5 Reset
