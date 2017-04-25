@@ -1,7 +1,7 @@
 # iOSNote
 
 ## **push**
-![](./images/push.png)
+![](./images/Push.png)
 
 ## **cache**
 ![](./images/cache.png)

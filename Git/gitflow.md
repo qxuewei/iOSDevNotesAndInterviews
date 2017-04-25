@@ -9,7 +9,7 @@
 ### Develop  	     new master
 ###  feature 		  new  develop,merge  dev
 
-## 1.开发新功能 使用dev作为父分支 ,没个新功能位于自己的分支
+## 1.开发新功能 使用dev作为父分支 ,`每个`新功能位于自己的分支
 ### 1.1 新功能分支不可以和master分支交互
 
 >假设新建球队  creatTeam
