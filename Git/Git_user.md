@@ -1,20 +1,14 @@
-#  Git`分享`  -DragonLi 
+#  Git终端命令的使用
 				
-				
+						
 # 一 : why Git?	
-
-	
 
 - `SVN`的**安全控制**和**权限管理**更好。`git`下，如果一个人clone以后，所有代码和历史都泄漏了。而 svn 有细致的**按照目录级的权限控制** (为什么还有那么多人用SVN?) 
 
 - [蒋鑫：为什么 Git 比 SVN 好](http://blog.jobbole.com/20069/)
 
 - [为什么要用GIT而不是SVN](http://www.cnblogs.com/wi100sh/p/4191080.html)
-
-
-- 个人而言:经常GitHub,所以比较习惯Git
 				
-
 #二:	Git初步体验
 
 - git init [project-name] 新建一个目录，将其初始化为Git代码库 
@@ -27,7 +21,7 @@
 
 - git commit --amend -m [message]如果代码没有任何新变化，则用来改写上一次commit的提交信息
 
-
+- git commit -am 'message'   `将add和commit合为一步` 
 - git log	显示当前分支的版本历史 `gitref log`
 - git push  
 
@@ -44,7 +38,8 @@
 
 
 - git branch -r 列出所有远程分支
-
+- git branch --merged               显示所有已合并到当前分支的分支
+- git branch --no-merged     		   显示所有未合并到当前分支的分支
 
 - git branch [branch-name] 新建一个分支，但依然停留在当前分支
 
@@ -101,6 +96,12 @@
 
 -  	git push --force   强制推送远程同步
 
+
+## 3.6 补充 
+- git diff origin/master..master    `比较远程分支master上有本地分支master上没有的`
+
+
+
 	
 # 4. supplement
 
@@ -118,11 +119,16 @@
 
 - Git的设置文件为.gitconfig，它可以在用户主目录下（全局配置），也可以在项目目录下（项目配置）。git config --list
 
-- 第一次使用Git配置操作:
+- 第一次使用Git常用配置操作命令:
 
 ```
+	1.配置个人信息
  	git config [--global] user.name "[name]"
   	git config [--global] user.email "[email address]"
+  	
+  	2. git status等命令自动着色
+  	git config --global color.ui true                         
+
 ```
 
 
