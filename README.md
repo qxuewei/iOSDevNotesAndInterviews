@@ -16,10 +16,12 @@
 
 
 ## <a name="iOSNote"></a> iOSNote
-
+-  **CocoaPods**管理库的使用技巧
+-  Controllers 代码结构规范
 - [iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)
 - [Core Animation框架结构及性能调优11张大图详解](./iOSNote/Core-AnimationPerformanceOptimization/readme.md)
 - [单元测试](./iOSNote/UnitTesting.md)
+- [移动IM选择](./iOSNote/移动IM选择.pdf)
 
 			
 ## <a name="Git"></a> Git
@@ -35,7 +37,8 @@
 - [interview-iOSPartThree](./interview-Set(iOS)/interview-iOSPartThree.md)
 
 - [interview-iOSPartFour](./interview-Set(iOS)/interview-iOSPartFour.md)
-					
+
+- [interview-iOSPartFive](./interview-Set(iOS)/interview-iOSPartFive.md)					
 					
 									
 ## <a name="other"></a> other

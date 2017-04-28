@@ -8,4 +8,42 @@
 - 根本不用缓存的地方主要是某些数据变化非常快，或者发起的网络请求是一次性的操作，比如收藏某个题目等等。
 
 
- 
+## init方法私有化
+	
+```
+1 .h 
+- (instancetype)init __attribute__((unavailable("Disabled. Use +sharedInstance instead")));
+- (instancetype)init NS_UNAVAILABLE;
+
+2.m
+//3. 内部不响应 不建议!
+- (instancetype)init {
+   // 抛出不识别,没有说明真的原因
+    [super doesNotRecognizeSelector:_cmd];
+    return nil;
+}
+
+// 通过断言
+- (instancetype)init1{
+    NSAssert(false,@"unavailable, use sharedInstance instead");
+    return nil;
+}
+
+// 通过异常
+- (instancetype)init2{
+    [NSException raise:NSGenericException format:@"Disabled. Use +[%@ %@] instead",
+     NSStringFromClass([self class]),
+     NSStringFromSelector(@selector(sharedInstance))];
+    
+    return nil;
+}
+
+```	 
+## 线程中栈与堆是公有的还是私有的 ?
+- 栈私有, 堆公有  
+
+
+
+
+
+
