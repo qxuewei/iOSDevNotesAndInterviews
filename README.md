@@ -90,10 +90,15 @@ The resource directory,不间断更新,喜欢的话还望给个star
 -   项目中你是怎么处理网络速度慢、中断抖动等网络请求中的问题?
 -   项目中的图片上传功能如何实现，为什么使用队列上传，为什么不用异步上传?
 
+- 对数组中的元素去重复 (四种)
+-  请简单写出增、删、改、查的SQL语句
+- 与 NSURLConnection 相比，NSURLsession 改进哪些?
+- 使用drawRect有什么影响？
+- 什么时候会报unrecognized selector的异常？如何避免?
 -  界面多个网络请求,如何处理刷新的?
 -  如果tableView界面网络请求有缓存数据逻辑?
 -  init方法私有化?
--  线程中栈与堆是公有的还是私有的 ?					
+-  线程中栈与堆是公有的还是私有的 ?		
 									
 ## <a name="other"></a> other
 

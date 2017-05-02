@@ -2,10 +2,110 @@
 
 # Question list
 
+- 对数组中的元素去重复 (四种)
+-  请简单写出增、删、改、查的SQL语句
+- 与 NSURLConnection 相比，NSURLsession 改进哪些?
+- 使用drawRect有什么影响？
+- 什么时候会报unrecognized selector的异常？如何避免?
 -  界面多个网络请求,如何处理刷新的?
 -  如果tableView界面网络请求有缓存数据逻辑?
 -  init方法私有化?
 -  线程中栈与堆是公有的还是私有的 ?
+# 宝库iOS开发笔试题
+
+## 对数组中的元素去重复 (2017年面试北京奥鹏在线教育笔试题也遇到)
+
+- 参考如下代码
+
+```
+NSArray *array = @[@"12-11", @"12-11", @"12-11", @"12-12", @"12-13", @"12-14"];
+
+1.开辟新的内存空间，然后判断是否存在，若不存在则添加到数组中，得到最终结果的顺序不发生变化。效率分析：时间复杂度为O ( n2 )：
+
+NSMutableArray *resultArray = [[NSMutableArray alloc] initWithCapacity:array.count];
+// 外层一个循环
+for (NSString *item in array) {
+   // 调用-containsObject:本质也是要循环去判断，因此本质上是双层遍历
+   // 时间复杂度为O ( n^2 )而不是O (n)
+    if (![resultArray containsObject:item]) {
+      [resultArray addObject:item];
+    }
+}
+NSLog(@"resultArray: %@", resultArray);
+ 
+2.利用NSDictionary去重，字典在设置key-value时，若已存在则更新值，若不存在则插入值，然后获取allValues。若不要求有序，则可以采用此种方法。若要求有序，还得进行排序。效率分析：只需要一个循环就可以完成放入字典，若不要求有序，时间复杂度为O(n)。若要求排序，则效率与排序算法有关：
+ NSMutableDictionary *resultDict = [[NSMutableDictionary alloc] initWithCapacity:array.count];
+for (NSString *item in array) {
+    [resultDict setObject:item forKey:item];
+}
+NSArray *resultArray = resultDict.allValues;
+NSLog(@"%@", resultArray);
+
+如果需要按照原来的升序排序，可以这样：
+resultArray = [resultArray sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+  NSString *item1 = obj1;
+  NSString *item2 = obj2;
+  return [item1 compare:item2 options:NSLiteralSearch];
+}];
+NSLog(@"%@", resultArray);
+ 
+3.利用集合NSSet的特性(确定性、无序性、互异性)，放入集合就自动去重了。但是它与字典拥有同样的无序性，所得结果顺序不再与原来一样。如果不要求有序，使用此方法与字典的效率应该是差不多的。效率分析：时间复杂度为O (n)：
+NSSet *set = [NSSet setWithArray:array];
+NSArray *resultArray = [set allObjects];
+NSLog(@"%@", resultArray);
+如果要求有序，那就得排序，比如这里要升序排序：
+
+resultArray = [resultArray sortedArrayUsingComparator:^NSComparisonResult(id  _Nonnull obj1, id  _Nonnull obj2) {
+  NSString *item1 = obj1;
+  NSString *item2 = obj2;
+  return [item1 compare:item2 options:NSLiteralSearch];
+}];
+NSLog(@"%@", resultArray);
+4. 有序集合--->直接使用有序集合
+NSOrderedSet *set = [NSOrderedSet orderedSetWithArray:array];
+NSLog(@"%@", set.array);
+
+```
+
+## 请简单写出增、删、改、查的SQL语句
+- 增：`insert into tb_blogs(name, url) values('DragonLi','https://github.com/DevDragonLi');`
+ 
+- 删：	`delete from tb_blogs where blogid = 1;`
+ 
+- 改：`update tb_blogs set url = 'www.henishuo.com' where blogid = 1;`
+ 
+- 查：`select name, url from tb_blogs where blogid = 1;`
+
+
+## 与 NSURLConnection 相比，NSURLsession 改进哪些?
+- 可以配置每个 session 的缓存，协议，cookie，以及证书策略（credential policy），甚至跨程序共享这些信息
+- session task。它负责处理数据的加载以及文件和数据在客户端与服务端之间的上传和下载。NSURLSessionTask 与 NSURLConnection 最大的相似之处在于它也负责数据的加载，最大的不同之处在于所有的 task 共享其创造者 NSURLSession 这一公共委托者（common delegate）
+
+
+## 使用drawRect有什么影响？
+- drawRect方法依赖Core Graphics框架来进行自定义的绘制
+	- 缺点：它处理touch事件时每次按钮被点击后，都会用setNeddsDisplay进行强制重绘；而且不止一次，每次单点事件触发两次执行。这样的话从性能的角度来说，对CPU和内存来说都是欠佳的。特别是如果在我们的界面上有多个这样的UIButton实例，那就会很糟糕了
+	- 这个方法的调用机制也是非常特别. 当你调用 setNeedsDisplay 方法时, UIKit 将会把当前图层标记为dirty,但还是会显示原来的内容,直到下一次的视图渲染周期,才会将标记为 dirty 的图层重新建立Core Graphics上下文,然后将内存中的数据恢复出来, 再使用 CGContextRef 进行绘制
+
+	
+## 什么时候会报unrecognized selector的异常？如何避免?
+- 当调用该对象上某个方法,而该对象上没有实现这个方法的时候， 可以通过“消息转发”进行解决，如果还是不行就会报unrecognized selector异常
+- objc是动态语言，每个方法在运行时会被动态转为消息发送，即：objc_msgSend(receiver, selector)，整个过程介绍如下：
+	- objc在向一个对象发送消息时，runtime库会根据对象的isa指针找到该对象实际所属的类然后在该类中的方法列表以及其父类方法列表中寻找方法运行
+如果，在最顶层的父类中依然找不到相应的方法时，程序在运行时会挂掉并抛出异常unrecognized selector sent to XXX 。但是在这之前，objc的运行时会给出三次拯救程序崩溃的机会
+
+- 三次拯救程序崩溃的机会
+
+	- Method resolution:objc运行时会调用+resolveInstanceMethod:或者 +resolveClassMethod:，让你有机会提供一个函数实现。
+如果你添加了函数并返回 YES，那运行时系统就会重新启动一次消息发送的过程
+如果 resolve 方法返回 NO ，运行时就会移到下一步，消息转发
+	- Fast forwarding:如果目标对象实现了-forwardingTargetForSelector:，Runtime 这时就会调用这个方法，给你把这个消息转发给其他对象的机会
+只要这个方法返回的不是nil和self，整个消息发送的过程就会被重启，当然发送的对象会变成你返回的那个对象。否则，就会继续Normal Fowarding。这里叫Fast，只是为了区别下一步的转发机制。因为这一步不会创建任何新的对象，但Normal forwarding转发会创建一个NSInvocation对象，相对Normal forwarding转发更快点，所以这里叫Fast forwarding
+	- Normal forwarding
+这一步是Runtime最后一次给你挽救的机会。
+首先它会发送-methodSignatureForSelector:消息获得函数的参数和返回值类型。
+如果-methodSignatureForSelector:返回nil，Runtime则会发出-doesNotRecognizeSelector:消息，程序这时也就挂掉了。
+如果返回了一个函数签名，Runtime就会创建一个NSInvocation对象并发送-forwardInvocation:消息给目标对象
 
 
 ## 界面多个网络请求,如何处理刷新的?
