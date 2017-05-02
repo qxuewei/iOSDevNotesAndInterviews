@@ -2,6 +2,17 @@
 
 # interview-iOS PartThree (profound understanding) 
 
+# Question list
+
+- SEL和Method和IMP分别说下再谈下对IMP的理解?
+- Autorelease的原理 ?
+-  ARC的工作原理
+-  weak弱引用的代码逻辑实现?
+-  大文件离线下载怎么处理?会遇到哪些问题?又如何解决
+-  Socket建立网络连接的步骤
+
+
+
 ## SEL和Method和IMP分别说下再谈下对IMP的理解?
 - SEL是“selector”的一个类型，表示一个方法的名字 
 - Method（我们常说的方法）表示一种类型，这种类型与selector和实现(implementation)相关
@@ -58,7 +69,7 @@ objc_ AutoreleasepoolPop(DragonLiContext);
 - ARC优化器: 虽然前端编译器听起来很厉害的样子，但代码中有时仍会出现几个对retain和release的重复调用。ARC优化器负责移除多余的retain和release语句，确保生成的代码运行速度高于手动引用计数的代码
 
 
-## weak弱引用的实现?
+## weak弱引用的代码逻辑实现?
 ```
 	objc_storeWeak() 实现 
 // HaveOld:	 true - 变量有值
@@ -241,9 +252,6 @@ self.dataTask = nil;
 
 
 
-
-
-
 ## Socket建立网络连接的步骤
 ####  建立Socket连接至少需要一对套接字，其中一个运行于客户端，称为ClientSocket ，另一个运行于服务器端，称为ServerSocket 。套接字之间的连接过程分为三个步骤：服务器监听，客户端请求，连接确认。(知名的框架 AsyncSocket)
 - 服务器监听：服务器端套接字并不定位具体的客户端套接字，而是处于等待连接的状态，实时监控网络状态，等待客户端的连接请求
@@ -288,22 +296,6 @@ NSData   *dataStream  = [@8 dataUsingEncoding:NSUTF8StringEncoding];
 }
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

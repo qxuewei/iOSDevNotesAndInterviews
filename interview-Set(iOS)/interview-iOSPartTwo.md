@@ -2,6 +2,16 @@
 
 # interview-iOS PartTwo
 
+# Question list
+
+- weak修饰的释放则自动被置为nil的实现原理
+- HTTPS的加密原理
+- 网络通讯中加密方式有哪些，各自的原理?
+- 谈下开发中iOS缓存的理解
+- 你认为开发中那些导致crash?
+- 分析下SDWebImage (q3:内部做Decoder的原因 (典型的空间换时间)) 
+- crash的收集和定位bug的方式谈下	
+
 
 ## weak修饰的释放则自动被置为nil的实现原理
 - Runtime维护着一个Weak表，用于存储指向某个对象的所有Weak指针
@@ -26,16 +36,20 @@
 - base64(现代密码学的基础)：原本8 bit一组的数据改为6bit一组，不足的地方补0，每两个0用一个 = 表示 
 
 ## 谈下开发中iOS缓存的理解
+
 ##### 一般`缓存` 针对展示类的UI层数据比较多.比如个人资料界面. 
+
 - 网络优先：开始总是从网络获取，如果获取失败，从本地获取(旧数据)。
 - 本地优先：在一段时间内从本地获取，当超过这个时间，然后重新请求网络数据(展示同时覆盖旧数据)。
 - 混合(智能)：打开程序先从本地获取展示，然后请求数据，请求完成后刷新界面(一般而言)。
 
 
 ## 你认为开发中那些导致crash?
+
 ##### 当iOS设备上的App应用闪退时，操作系统会生成一个crash日志，保存在设备上。crash日志上有很多有用的信息，比如每个正在执行线程的完整堆栈跟踪信息和内存映像，这样就能够通过解析这些信息进而定位crash发生时的代码逻辑，从而找到App闪退的原因。通常来说，crash产生来源于两种问题：违反iOS系统规则导致的crash和App代码逻辑BUG导致的crash
 
 ###1.应用逻辑的Bug
+
 - SEGV：（Segmentation Violation，段违例），无效内存地址，比如空指针，未初始化指针，栈溢出等；
 - SIGABRT：收到Abort信号，可能自身调用abort()或者收到外部发送过来的信号；
 - SIGBUS：总线错误。与SIGSEGV不同的是，SIGSEGV访问的是无效地址（比如虚存映射不到物理内存），而SIGBUS访问的是有效地址，但总线访问异常（比如地址对齐问题）；
@@ -57,7 +71,10 @@
   
 
 ## 分析下SDWebImage 
+
+
 ### 1.SDWebImage 加载图片的流程
+
 
 1.入口 setImageWithURL:placeholderImage:options: 会先把 placeholderImage 显示，然后 SDWebImageManager 根据 URL 开始处理图片。
 
@@ -137,7 +154,7 @@ void UncaughtExceptionHandler(NSException *exception) {
   
   ```
 
-- 第三方收集crash (比如说集成友盟,使用dYSM分析定位代码)
+- 第三方收集crash (比如说集成友盟,使用dSYM分析定位代码)
 
 
 

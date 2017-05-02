@@ -18,17 +18,19 @@ alias pod_install='pod install --verbose --no-repo-update'
 ## Controllers 代码结构规范
 ```
 #pragma mark - Lifecycle
+
 - (instancetype)init {}
+
 - (void)dealloc {}
+
 - (void)viewDidLoad {}
+
 - (void)viewWillAppear:(BOOL)animated {}
+
 - (void)didReceiveMemoryWarning {}
 
-#pragma mark - Custom Accessors
-- (void)setCustomProperty:(id)value {}
-- (id)customProperty {}
-
 #pragma mark - IBActions/Event Response
+
 - (IBAction)submitData:(id)sender {}
 - (void)someButtonDidPressed:(UIButton*)button
 
@@ -37,17 +39,8 @@ alias pod_install='pod install --verbose --no-repo-update'
 #pragma mark - UITableViewDataSource
 #pragma mark - UITableViewDelegate
 
-#pragma mark - Public
-- (void)publicMethod {}
-
 #pragma mark - Private
 - (void)privateMethod {}
-
-#pragma mark - NSCopying
-- (id)copyWithZone:(NSZone *)zone {}
-
-#pragma mark - NSObject
-- (NSString *)description {}
 
 ```
 

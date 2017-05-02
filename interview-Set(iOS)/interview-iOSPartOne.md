@@ -6,6 +6,24 @@
 
 									前言
 针对部分iOS面试题进行回答,有的答案来自网络,有的内容为本人亲自码.有的题目进行了修改后期不断更新其他内容.喜欢的还望star.不仅仅是回答面试题目,同时也包含面试部分思考分析.				
+# Question list
+
+- 谈下iOS开发中知道的哪些锁? 哪个性能最差?SD和AFN使用的哪个? 一般开发中你最常用哪个? 哪个锁apple存在问题又是什么问题?
+- iOS下如何实现指定线程数目的线程池?
+- 如何用HTTP实现长连接？
+- http的post和get啥区别
+- 使用atomic一定是线程安全的吗？
+- 数据库建表的时候索引有什么用？
+- 介绍下iOS设备获取唯一设备号的历史变迁
+- 如何使用runtime hook一个class的某个方法，又如何hook某个instance的方法？
+- 聊下HTTP的POST的body体使用form-urlencoded和multipart/form-data的区别。
+- 通过[UIImage imageNamed:]生成的对象什么时候被释放？
+- applicationWillEnterForeground和applicationDidBecomeActive都会在哪些场景下被调用？举例越多越好。
+- 如何终止正在运行的工作线程？
+- iOS下所有的本地持久化方案。
+
+
+
 ## 谈下iOS开发中知道的哪些锁? 哪个性能最差?SD和AFN使用的哪个? 一般开发中你最常用哪个? 哪个锁apple存在问题又是什么问题?
  
 - 我们在使用多线程的时候多个线程可能会访问同一块资源，这样就很容易引发数据错乱和数据安全等问题，这时候就需要我们保证每次只有一个线程访问这一块资源，锁 应运而生
@@ -105,7 +123,7 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 - 线程中调用exit、pthread_exit、pthread_kill、pthread_cancel
 - NSOperation ,接口设计的cancle 实际上只能取消还未运行的,已经运行的无法取消.
 
-## iOS下所有的本地持久化方案。
+## iOS下所有的本地持久化方案?
 - 沙盒 
  - plist文件（属性列表）
  - preference（偏好设置）
@@ -116,11 +134,6 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 
 - CoreData
 - Realm (Swift OC 不可以互操作)
-
-## 如果公司强制996，你有什么心里话要对老板说吗？
-
-#### 1.工作以来未曾遇强制996制度,不过加班过,早前入职 `遇见`因为 彻夜难眠,一周后离职,我觉得贵公司招我进来,不是为了让我离职的吧?
-#### 2.一直奉承工作期间踏实工作,公司遇到上线等自觉晚走.说完了,我可以走了那. 
 
 
 
