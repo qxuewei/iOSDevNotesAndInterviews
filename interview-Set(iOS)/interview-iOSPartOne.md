@@ -110,7 +110,7 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 
 ## 通过[UIImage imageNamed:]生成的对象什么时候被释放？
 - 此类加载,针对小图标,使用场景较多图片.
-- `@autoreleasepool` 结束的时候才释放,也就是退出程序
+- `@autoreleasepool` 如果没有使用局部释放池，并且在主线程，则是当前主线程Runloop一次循环结束前释放。
 - imageWithContentsOfFile 加载适用于大图片,不常用的图片,一般无引用时候,会释放
 
 
