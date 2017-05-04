@@ -1,6 +1,10 @@
 # iOSNote
 
-*   **[iOSDev](#iOSDevPic)**
+- [iOS-coreAnimation-知识点记录](./iOS-coreAnimation.md)
+
+
+
+*   **[iOSDevPics](#iOSDevPic)**
 
 	- AFNetworking   -By雷神
 	- push

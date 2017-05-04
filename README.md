@@ -26,6 +26,7 @@ The resource directory,不间断更新,喜欢的话还望给个star
 -  [Controllers代码结构规范](./iOSNote/readme.md)
 - [iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)
 - [Core Animation框架结构及性能调优11张大图详解](./iOSNote/Core-AnimationPerformanceOptimization/readme.md)
+- [iOS-coreAnimation-知识点记录](./iOSNote/iOS-coreAnimation.md)
 - [单元测试](./iOSNote/UnitTesting.md)
 - [移动IM选择](./iOSNote/移动IM选择.pdf)
 
