@@ -1,5 +1,12 @@
 # iOSNote
 
+*   **[iOSDev](#iOSDevPic)**
+
+	- AFNetworking   -By雷神
+	- push
+	- cache
+
+
 ## **CocoaPods**管理库的使用技巧
 
 - pod install --verbose --no-repo-update  只查找本地,而且不联网更新库,快!
@@ -45,12 +52,12 @@ alias pod_install='pod install --verbose --no-repo-update'
 ```
 
 
+## <a name="iOSDevPic"></a> iOSDevPic
 
-
-
-
-## **push**
+### **push**
 ![](./images/Push.png)
 
-## **cache**
+### **cache**
 ![](./images/cache.png)
+
+### **AFNetworking** 图片太大,需要的[图片地址](https://coding.net/u/LFL/p/BlogPics/git/)下载即可
