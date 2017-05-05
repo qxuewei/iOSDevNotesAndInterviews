@@ -51,7 +51,9 @@ The resource directory,不间断更新,喜欢的话还望给个star
 
 - [interview-iOSPartFour](./interview-Set(iOS)/interview-iOSPartFour.md)
 
-- [interview-iOSPartFive](./interview-Set(iOS)/interview-iOSPartFive.md)					
+- [interview-iOSPartFive](./interview-Set(iOS)/interview-iOSPartFive.md)
+- [iOSBaseSkills](./interview-Set(iOS)/iOSBaseSkills-2017-05.md)			
+				
 
 ------------------
 
