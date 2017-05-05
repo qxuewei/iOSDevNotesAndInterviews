@@ -1,7 +1,10 @@
 # iOSNote
 
-- [iOS-coreAnimation-知识点记录](./iOS-coreAnimation.md)
-
+- [iOS-CoreAnimation-知识点记录](./iOS-CoreAnimation.md)
+	 - **性能调优**
+	 - **高效绘制**
+	 - **图像IO**
+	 - **图层性能**
 
 
 *   **[iOSDevPics](#iOSDevPic)**
