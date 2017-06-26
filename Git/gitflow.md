@@ -6,7 +6,7 @@
 ### master  		  new  hotfix
 ### Hotfix  		  merge to  master
 ### Release  
-### Develop  	     new master
+### Develop  	 newBy master
 ###  feature 		  new  develop,merge  dev
 
 ## 1.开发新功能 使用dev作为父分支 ,`每个`新功能位于自己的分支

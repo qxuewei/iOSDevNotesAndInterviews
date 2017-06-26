@@ -21,16 +21,13 @@
 
 - git commit --amend -m [message]如果代码没有任何新变化，则用来改写上一次commit的提交信息
 
-- git commit -am 'message'   `将add和commit合为一步` 
-- git log	显示当前分支的版本历史 `gitref log`
+- git log	显示当前分支的版本历史 
+- gitref log 可以查看到之前的修正历史
 - git push  
-
 
 - git pull 
 
-
-- git clone  
-
+- git clone  `URL`
  
 #三:	Git使用入门
 ## 3.1branch
@@ -44,7 +41,7 @@
 - git branch [branch-name] 新建一个分支，但依然停留在当前分支
 
 
-- git checkout -b [branch] 新建一个分支，并切换到该分支
+- **git checkout -b [branch]** 新建一个分支，并切换到该分支
 
 - git branch --track [branch] [remote-branch] 新建一个分支，与指定的远程分支建立追踪关系,假如远程变化,本地通知 
 
@@ -105,7 +102,7 @@
 	
 # 4. supplement
 
-## 4.1 Git stash 暂存操作 --->在开发的过程中，突然来了个紧急的BUG或是任务，但是当前的任务或BUG还没有修复好，代码也不能提交，怎么办呢？
+### 4.1 Git stash 暂存操作 --->在开发的过程中，突然来了个紧急的BUG或是任务，但是当前的任务或BUG还没有修复好，代码也不能提交，怎么办呢？
 - git stash list 查看当前暂存的列表
 
 - git stash apply stash@{0}  取出某个暂存的代码
