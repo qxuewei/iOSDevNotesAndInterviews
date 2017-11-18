@@ -27,6 +27,7 @@ The resource directory,不间断更新,喜欢的话还望给个star
 - [iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)
 - [Core Animation框架结构及性能调优11张大图详解](./iOSNote/Core-AnimationPerformanceOptimization/readme.md)
 - [iOS核心动画高级技巧](./iOSNote/iOS-coreAnimation.md)
+- **[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)**
 	- **性能调优**
 	- **高效绘制**
 	- **图像IO**
