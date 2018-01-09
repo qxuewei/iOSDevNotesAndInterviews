@@ -35,6 +35,7 @@ The resource directory,不间断更新,喜欢的话还望给个star
 
 - [单元测试](./iOSNote/UnitTesting.md)
 - [移动IM选择](./iOSNote/移动IM选择.pdf)
+- [私有化pod](./Pods/Pod&&spec.md)
 
 			
 ## <a name="Git"></a> Git
