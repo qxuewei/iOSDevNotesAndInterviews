@@ -1,27 +1,22 @@
 
 # ************ DevRepo ************
 
-## 技术路:
-- 在公司进行产品开发；
-- 阅读优质源码和所研究领域官方文档；
-- 写原创技术博客对知识进行总结和分享；
-- 关注Github中优秀的开源项目并提交自己的项目；
-- 在公司内部做技术分享；
-- 阅读相关技术书籍；
-- 业余时间持续学习。
-
-
-The resource directory,不间断更新,喜欢的话还望给个star
-	
+*   **[iOSDevDemoRepo](https://github.com/DevDragonLi/iOSDevDemo)**
 *   **[iOSNote](#iOSNote)**
 *   **[Git](#Git)**
 *   **[interview-About-iOS](#interview-About-iOS)**
+*   **[iOS面试题目一览表](#iOS-interview_List)**
 *   **[react-native](#react-native)**   
 *   **[otherRepo](#other)**
-*   **[iOS开发进阶](#iOSDev-bang)**
-
-
+*   **[iOS开发进阶-bang](#iOSDev-bang)**
+*  **持续技术路->>**
+	- 在公司进行产品开发 && 在公司内部做技术分享；
+	- 阅读优质源码和所研究领域官方文档 && 写原创技术博客对知识进行总结和分享；
+	- 关注Github中优秀的开源项目并提交自己的项目；
+	- 阅读相关技术书籍 && 业余时间持续学习；
+	
 ## <a name="iOSNote"></a> iOSNote
+
 -  [**CocoaPods**管理库的使用技巧](./iOSNote/readme.md)
 -  [Controllers代码结构规范](./iOSNote/readme.md)
 - [iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)
@@ -33,9 +28,9 @@ The resource directory,不间断更新,喜欢的话还望给个star
 	- **图像IO**
 	- **图层性能**
 
-- [单元测试](./iOSNote/UnitTesting.md)
-- [移动IM选择](./iOSNote/移动IM选择.pdf)
-- [私有化pod](./Pods/Pod&&spec.md)
+- [单元测试概述](./iOSNote/UnitTesting.md)
+- [移动IM选择-资源待再次添加](./iOSNote/移动IM选择.pdf)
+- [私有化pod总结笔记](./Pods/Pod&&spec.md)
 
 			
 ## <a name="Git"></a> Git
@@ -54,10 +49,40 @@ The resource directory,不间断更新,喜欢的话还望给个star
 - [interview-iOSPartFour](./interview-Set(iOS)/interview-iOSPartFour.md)
 
 - [interview-iOSPartFive](./interview-Set(iOS)/interview-iOSPartFive.md)
-- [iOSBaseSkills](./interview-Set(iOS)/iOSBaseSkills-2017-05.md)			
-				
+- [iOSDev_Skills](./interview-Set(iOS)/iOSBaseSkills-2017-05.md)	
+## <a name="other"></a> other
 
-------------------
+- [ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./other/cocoapods.md)
+
+- [ReactNative-install](./other/ReactNative-install.md) 
+
+-  [Markdown-简单使用入门](./other/Markdown-User.md)
+	
+								
+## <a name="react-native"></a> react-native-Resource
+
+- RN学习资料分享
+	
+	- [RN中文网](http://reactnative.cn)
+	- [facebook-React-native官网](https://facebook.github.io/react-native/)
+	- [极客学院](http://wiki.jikexueyuan.com/project/react-native/)
+
+- react-native-training 
+
+	- [戳我一下呀](https://www.gitbook.com/book/unbug/react-native-training/details)
+
+	- [非培训机构视频优酷地址](http://list.youku.com/albumlist/show?id=27615900&ascending=1&page=1)
+
+- 开源资料部分
+
+	- [官方参考](https://github.com/facebook/react-native/tree/master/Examples)
+
+	- `ReactNativeSources文件夹明细(迁移文件到coding)`[直达地址](https://coding.net/u/LFL/p/GitHubRepo/git)
+	- 【简寻沙龙】《加速创业的魔法-React Native》 张旭.pdf
+	-  移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
+	- 方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
+
+## <a name="iOS-interview_List"></a> iOS面试题目一览表 (非全部,具体参考interview-About-iOS文件夹)
 
 - 谈下iOS开发中知道的哪些锁? 哪个性能最差?SD和AFN使用的哪个? 一般开发中你最常用哪个? 哪个锁apple存在问题又是什么问题?
 - iOS下如何实现指定线程数目的线程池?
@@ -109,48 +134,13 @@ The resource directory,不间断更新,喜欢的话还望给个star
 -  界面多个网络请求,如何处理刷新的?
 -  如果tableView界面网络请求有缓存数据逻辑?
 -  init方法私有化?
--  线程中栈与堆是公有的还是私有的 ?		
-									
-## <a name="other"></a> other
-
-- [ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./other/cocoapods.md)
-
-- [ReactNative-install](./other/ReactNative-install.md) 
-
--  [Markdown-简单使用入门](./other/Markdown-User.md)
-	
-	
-						
-## <a name="react-native"></a> react-native-Resource
-
-### RN学习资料分享
-- [RN中文网](http://reactnative.cn)
-
-
-- [facebook-React-native官网](https://facebook.github.io/react-native/)
-
-- [极客学院](http://wiki.jikexueyuan.com/project/react-native/)
-
-
-###react-native-training 
-
-- [戳我一下呀](https://www.gitbook.com/book/unbug/react-native-training/details)
-
-- [非培训机构视频优酷地址](http://list.youku.com/albumlist/show?id=27615900&ascending=1&page=1)
-
-### 开源资料部分
-- [官方参考](https://github.com/facebook/react-native/tree/master/Examples)
-
-- `ReactNativeSources文件夹明细(迁移文件到coding)`[直达地址](https://coding.net/u/LFL/p/GitHubRepo/git)
-	- 【简寻沙龙】《加速创业的魔法-React Native》 张旭.pdf
-	-  移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
-	- 方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
-
+-  线程中栈与堆是公有的还是私有的 ?	
 
 
 
 ## <a name="iOSDev-bang"></a> iOSDev-bang 
 
 ![](./iOSNote/images/iOSDev-bang.png)
+
 
 ## 如果你有好的资源,也可以提交或者联系我`dragonli_52171@163.com`	

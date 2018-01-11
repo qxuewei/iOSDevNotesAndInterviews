@@ -1,4 +1,4 @@
-# [GitHub HomePage](https://github.com/DevDragonLi)
+
 # 静态库
 
 ## 一. 静态库的简介
