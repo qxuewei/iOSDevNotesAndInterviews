@@ -1,7 +1,3 @@
-# [GitHub HomePage](https://github.com/DevDragonLi)
-
-# interview-iOS PartTwo
-
 # Question list
 
 - weak修饰的释放则自动被置为nil的实现原理
@@ -19,7 +15,6 @@
 - 在对象被回收的时候，经过层层调用，会最终触发下面的方法将所有Weak指针的值设为nil。
 - runtime源码，objc-weak.m 的 arr_clear_deallocating 函数
 - weak指针的使用涉及到Hash表的增删改查，有一定的性能开销.
-
 
 
 ## HTTPS的加密原理

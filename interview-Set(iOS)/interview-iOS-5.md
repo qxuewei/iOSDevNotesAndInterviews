@@ -1,4 +1,4 @@
-# interview-iOS PartFive
+# interview-iOS - 5
 
 # Question list
 
@@ -13,7 +13,7 @@
 -  线程中栈与堆是公有的还是私有的 ?
 # 宝库iOS开发笔试题
 
-## 对数组中的元素去重复 (2017年面试北京奥鹏在线教育笔试题也遇到)
+## 对数组中的元素去重复 (2017年初面试北京奥鹏在线教育笔试题)
 
 - 参考如下代码
 
@@ -72,7 +72,7 @@ NSLog(@"%@", set.array);
  
 - 删：	`delete from tb_blogs where blogid = 1;`
  
-- 改：`update tb_blogs set url = 'www.henishuo.com' where blogid = 1;`
+- 改：`update tb_blogs set url = 'www.textURL.com' where blogid = 1;`
  
 - 查：`select name, url from tb_blogs where blogid = 1;`
 

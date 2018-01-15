@@ -1,8 +1,7 @@
-# [GitHub HomePage](https://github.com/DevDragonLi)
 
 # interview-iOS PartThree (profound understanding) 
 
-# Question list
+## Question list
 
 - SEL和Method和IMP分别说下再谈下对IMP的理解?
 - Autorelease的原理 ?
