@@ -1,11 +1,7 @@
-# [GitHub HomePage](https://github.com/DevDragonLi)
 
-# interview-iOS PartOne 
+# [MrPeak的题目出处](https://zhuanlan.zhihu.com/p/22834934)
 
-[MrPeak的题目出处](https://zhuanlan.zhihu.com/p/22834934)
-
-									前言
-针对部分iOS面试题进行回答,有的答案来自网络,有的内容为本人亲自码.有的题目进行了修改后期不断更新其他内容.喜欢的还望star.不仅仅是回答面试题目,同时也包含面试部分思考分析.				
+				
 # Question list
 
 - 谈下iOS开发中知道的哪些锁? 哪个性能最差?SD和AFN使用的哪个? 一般开发中你最常用哪个? 哪个锁apple存在问题又是什么问题?
@@ -32,7 +28,9 @@
 
 - `@synchronized` 性能最差,但是SD和AFN等其他框架很多使用这个.
 
-- dispatch_semaphore 信号量 一般开发中较为常用 
+- dispatch_semaphore 信号量  []()
+	- 1. 保持线程同步
+	- 2. 为线程加锁
 
 ```
 dispatch_semaphore_t signal = dispatch_semaphore_create(1); 
@@ -62,9 +60,10 @@ dispatch_semaphore_wait(signal, overTime)：可以理解为 lock,会使得 signa
 dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 +1
 
 ```
-- tips 面试期间谈及信号量,一定要说具体项目使用场景.
+- tips 面试期间谈及信号量,一定要说具体项目使用场景.(YY较多框架使用)
 
 ## iOS下如何实现指定线程数目的线程池?
+
 - 循环通过pthread_create创建线程，创建s_tfthread对象做为线程句，加入线程数组,s_tftask_content->methord初始化为空函数
 
 - 创建任务执行函数，执行完通过task初始化函数后，在执行函数中通过pthread_cond_wait信号将当前创建的线程挂起
@@ -85,6 +84,7 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 ## 数据库建表的时候索引有什么用？
 - 创建索引可以大大提高系统的性能，加快数据的检索速度，加速表和表之间的连接，保证数据库表中每一行数据的唯一性
 - 但是有些列不应该创建索引，需要综合考虑.
+
 ## 介绍下iOS设备获取唯一设备号的历史变迁
 #### iOS中获取设备唯一标示符的方法一直随版本的更新而变化
 - iOS 2.0版本以后UIDevice提供一个获取设备唯一标识符的方法uniqueIdentifier
