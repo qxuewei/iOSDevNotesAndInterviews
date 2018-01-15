@@ -57,7 +57,7 @@
 - [ReactNative-install](./other/ReactNative-install.md) 
 
 -  [Markdown-简单使用入门](./other/Markdown-User.md)
-	
+- ![weex架构图](./other/weex.png)	
 								
 ## <a name="react-native"></a> react-native-Resource
 
