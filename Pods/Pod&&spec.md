@@ -1,5 +1,6 @@
 # Pod && spec
 
+- ![](./Lib_example.png)
 
 ## git
 
@@ -67,7 +68,7 @@ b.source_files => 'LFLTest/LFLSegumentTool/*'
 b.dependecy = 'GitHubSegumentTool'
 end`
 
-### example 
+### example Lib
 
 - 私有的远程索引  pod repo add LFLcocoapods URL  部署到`coding` ,`oschina`等
 
@@ -80,3 +81,21 @@ end`
 - pod repo push LFLTest LFLTest.podspec
 
 - pod update --no --repo 
+
+##### lib cerate  
+
+```
+pod spec create LFLBaseKit (Specification created at LFLBaseKit.podspec) 
+
+pod lib create LFLBaseKit  
+
+ pod lib lint --allow-warnings   // 验证  pod spec lint 
+
+上传到自己的 specs
+
+pod repo push LFLSpecs LFLBaseKit.podspec --allow-warnings     : 1. 点前 repo 本地名称 2. 点前文件夹的 spec  
+
+```
+
+
+
