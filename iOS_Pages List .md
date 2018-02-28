@@ -1,13 +1,6 @@
 # iOS_Pages List 
 
-
-
-
-
-
-
-
-
+- [一份走心的iOS开发规范](https://www.jianshu.com/p/c818c00e0690)
 
 ### Optimizing App Startup Time
 
