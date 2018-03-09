@@ -20,7 +20,7 @@
 
 		
 ## <a name="iOSNote"></a> iOSNote
-
+- [**iOS架构相关**](./iOSNote/iOS_architecture.pdf)
 -  [**CocoaPods**管理库的使用技巧](./iOSNote/readme.md)
 -  [Controllers代码结构规范](./iOSNote/readme.md)
 - [iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)
