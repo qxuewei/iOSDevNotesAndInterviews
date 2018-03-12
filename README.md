@@ -35,6 +35,7 @@
 - [单元测试概述](./iOSNote/UnitTesting.md)
 - [移动IM选择-资源待再次添加](./iOSNote/移动IM选择.pdf)
 - [私有化pod总结笔记](./Pods/Pod&&spec.md)
+- [私有化pod_demo](./Pods/PodPrivate_demo)
 
 			
 ## <a name="Git"></a> Git
