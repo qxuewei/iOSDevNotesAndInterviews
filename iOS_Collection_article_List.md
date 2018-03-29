@@ -11,6 +11,8 @@
 
 - [优化 App 的启动时间实践 iOS](https://www.jianshu.com/p/0858878e331f)
 
+- [**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)
+
 ### other 
 
 - [一份走心的iOS开发规范](https://www.jianshu.com/p/c818c00e0690)
