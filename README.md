@@ -21,12 +21,13 @@
 		
 ## <a name="iOSNote"></a> iOSNote
 - [**iOS架构相关**](./iOSNote/iOS_architecture.pdf)
--  [**CocoaPods**管理库的使用技巧](./iOSNote/readme.md)
--  [Controllers代码结构规范](./iOSNote/readme.md)
+- [**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)
+- [**CocoaPods**管理库的使用技巧](./iOSNote/readme.md)
+- [Controllers代码结构规范](./iOSNote/readme.md)
 - [iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)
 - [Core Animation框架结构及性能调优11张大图详解](./iOSNote/Core-AnimationPerformanceOptimization/readme.md)
 - [iOS核心动画高级技巧](./iOSNote/iOS-coreAnimation.md)
-- **[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)**
+- [iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)
 	- **性能调优**
 	- **高效绘制**
 	- **图像IO**
