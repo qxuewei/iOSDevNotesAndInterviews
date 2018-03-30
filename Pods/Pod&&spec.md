@@ -30,6 +30,8 @@
 ### create podFile and podspec
 - pod init 
 - pod spec create LFLPodLibName 
+	- pod lib create ProjectName其实使用了默认参数,补全的话pod lib create ProjectName --template-url=https://github.com/CocoaPods/pod-template.git
+
 - pod 'LFLLib',path => '../LFLTestDemo'
 
 - (pod 后存在Devleplent Pods)
