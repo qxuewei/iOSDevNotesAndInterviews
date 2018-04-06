@@ -1,7 +1,7 @@
 
 # ************ DevRepo ************
 
-*   **[iOSDevDemoRepo](https://github.com/DevDragonLi/iOSDevDemo)**
+*   **[iOSDevCodeRepo](https://github.com/DevDragonLi/iOSDevCode)**
 *   **[iOSNote](#iOSNote)**
 *   **[iOS_Collection_article](./iOS_Collection_article_List.md)**
 	- update ing
@@ -12,11 +12,6 @@
 *   **[react-native](#react-native)**   
 *   **[otherRepo](#other)**
 *   **[iOS开发进阶-bang](#iOSDev-bang)**
-*  **dev_road->>**
-	- 在公司进行产品开发 && 在公司内部做技术分享；
-	- 阅读优质源码和所研究领域官方文档 && 写原创技术博客对知识进行总结和分享；
-	- 关注Github中优秀的开源项目并提交自己的项目；
-	- 阅读相关技术书籍 && 业余时间持续学习；
 		
 ## <a name="iOSNote"></a> iOSNote
 - [**iOS架构相关**](./iOSNote/iOS_architecture.pdf)
@@ -64,6 +59,13 @@
 
 -  [Markdown-简单使用入门](./other/Markdown-User.md)
 - ![weex架构图](./other/weex.png)	
+	
+- **dev_road->>**
+	- 在公司进行产品开发 && 在公司内部做技术分享；
+	- 阅读优质源码和所研究领域官方文档 && 写原创技术博客对知识进行总结和分享；
+	- 关注Github中优秀的开源项目并提交自己的项目；
+	- 阅读相关技术书籍 && 业余时间持续学习；	
+	
 								
 ## <a name="react-native"></a> react-native-Resource
 
