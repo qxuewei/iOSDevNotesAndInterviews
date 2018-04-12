@@ -51,6 +51,7 @@
 - [interview-iOS-4](./interview-Set(iOS)/interview-iOS-4.md)
 
 - [interview-iOS-5](./interview-Set(iOS)/interview-iOS-5.md)
+- [interview-iOS-6](./interview-Set(iOS)/interview-iOS-6.md)
 ## <a name="other"></a> other
 
 - [ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./other/cocoapods.md)
