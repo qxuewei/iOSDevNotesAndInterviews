@@ -40,18 +40,18 @@
 									
 ## <a name="interview-About-iOS"></a> interview-About-iOS
 
-- [iOSDev_Skills](./interview-Set(iOS)/iOSBaseSkills-2017-05.md)
+- [iOSDev_Skills](./interview-iOS/iOSBaseSkills-2017-05.md)
 
-- [MrPeak的面试题目](./interview-Set(iOS)/interview-iOS-1.md)
+- [MrPeak的面试题目](./interview-iOS/interview-iOS-1.md)
 
-- [interview-iOS-2](./interview-Set(iOS)/interview-iOS-2.md)
+- [interview-iOS-2](./interview-iOS/interview-iOS-2.md)
 
-- [interview-iOS-3](./interview-Set(iOS)/interview-iOS-3.md)
+- [interview-iOS-3](./interview-iOS/interview-iOS-3.md)
 
-- [interview-iOS-4](./interview-Set(iOS)/interview-iOS-4.md)
+- [interview-iOS-4](./interview-iOS/interview-iOS-4.md)
 
-- [interview-iOS-5](./interview-Set(iOS)/interview-iOS-5.md)
-- [interview-iOS-6](./interview-Set(iOS)/interview-iOS-6.md)
+- [interview-iOS-5](./interview-iOS/interview-iOS-5.md)
+- [interview-iOS-6](./interview-iOS/interview-iOS-6.md)
 ## <a name="other"></a> other
 
 - [ruby.taobao.org停止更新使用cocoapods更新rubychina源教程](./other/cocoapods.md)
@@ -91,7 +91,7 @@
 	-  移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
 	- 方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
 
-## <a name="iOS-interview_List"></a> iOS面试题目一览表 (非全部,具体参考interview-About-iOS文件夹)
+## <a name="iOS-interview_List"></a> iOS面试题目一览表 (非全部,具体参考interview-iOS文件夹)
 
 - 谈下iOS开发中知道的哪些锁? 哪个性能最差?SD和AFN使用的哪个? 一般开发中你最常用哪个? 哪个锁apple存在问题又是什么问题?
 - iOS下如何实现指定线程数目的线程池?
