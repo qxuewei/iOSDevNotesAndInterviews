@@ -1,7 +1,7 @@
 
 # ************ DevRepo ************
 
-*   **[iOSDevCodeRepo](https://github.com/DevDragonLi/iOSDevCode)**
+*   **[iOSDevCodeRepo](https://github.com/DevDragonLi/iOSDevDemo)**
 *   **[iOSNote](#iOSNote)**
 *   **[iOS_Collection_article](./iOS_Collection_article_List.md)**
 	- update ing
@@ -19,7 +19,7 @@
 - [**CocoaPods**管理库的使用技巧](./iOSNote/readme.md)
 - [Controllers代码结构规范](./iOSNote/readme.md)
 - [iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)
-- [Core Animation框架结构及性能调优11张大图详解](./iOSNote/Core-AnimationPerformanceOptimization/readme.md)
+- [Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)
 - [iOS核心动画高级技巧](./iOSNote/iOS-coreAnimation.md)
 - [iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)
 	- **性能调优**
