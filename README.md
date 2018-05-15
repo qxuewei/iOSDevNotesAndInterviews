@@ -1,6 +1,13 @@
 
 # ************ DevRepo ************
 
+- 推荐 终端方式 clone 而不是直接下载 zip ,早期的大图资源已移除此 repo, 缩减体积   
+
+``` 
+git clone --depth 5 https://github.com/DevDragonLi/Dev-Repo
+
+```
+
 *   **[iOSDevCodeRepo](https://github.com/DevDragonLi/iOSDevDemo)**
 *   **[iOSNote](#iOSNote)**
 *   **[iOS_Collection_article](./iOS_Collection_article_List.md)**
