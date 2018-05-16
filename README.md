@@ -1,10 +1,15 @@
 
 # ************ DevRepo ************
 
-- 推荐 终端方式 clone 而不是直接下载 zip ,早期的大图资源已移除此 repo, 缩减体积   
+- **clone repo** 
 
 ``` 
-git clone --depth 5 https://github.com/DevDragonLi/Dev-Repo
+提升clone 速度 使用此句:
+git clone --depth 3 https://github.com/DevDragonLi/Dev-Repo
+
+避免直接执行 
+
+git clone https://github.com/DevDragonLi/Dev-Repo
 
 ```
 
