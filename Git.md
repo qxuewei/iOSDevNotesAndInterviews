@@ -1,6 +1,11 @@
-#  Git 
+#  Git 分布式世界
 
 - [Git的官⽅网站](http://git-scm.com)
+- [Git命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)
+- [Gitflow -工作流 ](./Gitflow.md)
+
+# content list 
+
 - **[base operation](#baseoperation)**    
 - **[branch](#branch)**    
 - **[merge  fetch conflict  reset ](#merge&fetch&conflict&reset )**   
