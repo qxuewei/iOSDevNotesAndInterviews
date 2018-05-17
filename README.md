@@ -1,5 +1,4 @@
-
-# ************ DevRepo ************
+#  iOSInterview,Git ,DevNotes 
 
 - **clone repo** 
 
@@ -47,8 +46,9 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 			
 ## <a name="Git"></a> Git
 - [Git指令使用总结](./Git.md)
-- [gitflow工作流](./GitCollection/gitflow.md)
+- [Gitflow -工作流](./Gitflow.md)
 - [map-Git](./GitCollection/map-Git.md)
+- [Git命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)
 									
 ## <a name="interview-About-iOS"></a> interview-About-iOS
 
