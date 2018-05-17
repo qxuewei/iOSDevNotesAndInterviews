@@ -46,9 +46,9 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 
 			
 ## <a name="Git"></a> Git
-- [Git指令使用总结](./Git/Git_user.md)
-- [gitflow工作流](./Git/gitflow.md) 		
-- [map-Git](./Git/map-Git.md)
+- [Git指令使用总结](./Git.md)
+- [gitflow工作流](./GitCollection/gitflow.md)
+- [map-Git](./GitCollection/map-Git.md)
 									
 ## <a name="interview-About-iOS"></a> interview-About-iOS
 
