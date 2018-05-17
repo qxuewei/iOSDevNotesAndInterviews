@@ -11,7 +11,13 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 
 ```
 
-## Git && Markdown
+-  如果你有好的资源,也可以提交PR或者联系我`dragonli_52171@163.com`
+
+
+## content list 
+
+<details>
+<summary> Git && Markdown </summary>
 
 |  FILENAME   | 
 |:----|
@@ -20,8 +26,10 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 |[Git命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)|
 |[Git指令速查图](./images/git_easy.jpg)|
 |[Markdown](./Markdown.md)|
+</details>
 
-## iOS面试题目集合 
+<details>
+<summary> iOS面试题目集合 </summary>
 
 |  FILENAME   | 
 |:----|
@@ -38,7 +46,10 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 | [interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒](interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)|
 | [interview-iOS-12校招攻略43份优质面经汇总iOS开发](interview-iOS-12校招攻略43份优质面经汇总iOS开发.md) |
 
-## iOSNote  
+</details>
+
+<details>
+<summary> iOSNote </summary>
 
 |  FILENAME   | 
 |:----|
@@ -55,13 +66,12 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 | [私有化pod总结笔记](./Pods/Pod&&spec.md)    |
 | [私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/1-DevDemo)   |
 |[iOSDev-bang技能🌲](./images/iOSDev-bang.png)|
-					
-								
-## react-native-Resource
+
+</details>
 
 <details>
 <summary> react-native-Resource </summary>
-
+ 
 - [ReactNative-install](./iOSNote/ReactNative-install.md)
 - **RN学习资料分享**
 	- [RN中文网](http://reactnative.cn)
@@ -83,7 +93,5 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 	-  移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
 	- 方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
 
+
 <details>
-
-
-## 如果你有好的资源,也可以提交PR或者联系我`dragonli_52171@163.com`	
