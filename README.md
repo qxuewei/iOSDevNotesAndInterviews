@@ -7,9 +7,9 @@
 
 [![Stargazers over time](https://starcharts.herokuapp.com/DevDragonLi/iOSDevNotesAndInterviews.svg)](https://starcharts.herokuapp.com/DevDragonLi/iOSDevNotesAndInterviews)
 
-- **recommend clone **
+- **recommend clone**
 
-> `git clone --depth 3 https://github.com/DevDragonLi/Dev-Repo`
+> `git clone --depth 3 https://github.com/DevDragonLi/iOSDevNotesAndInterviews `
 
 -  如果你有好的资源,也可以提交PR或者联系我`dragonli_52171@163.com`
 
