@@ -1,36 +1,35 @@
-#  iOS Interviews,Git ,DevNotes 
+#  iOS Interviews,Git,DevNotes 
 
-- **clone**
+ [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews)](http://github.com/DevDragonLi/iOSDevNotesAndInterviews)
+ [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews)](http://github.com/DevDragonLi/iOSDevNotesAndInterviews/fork)
 
-``` 
-提升clone 速度 使用此句:
-git clone --depth 3 https://github.com/DevDragonLi/Dev-Repo
+## Stargazers over time
 
-避免直接执行 :
-git clone https://github.com/DevDragonLi/Dev-Repo
+[![Stargazers over time](https://starcharts.herokuapp.com/DevDragonLi/iOSDevNotesAndInterviews.svg)](https://starcharts.herokuapp.com/DevDragonLi/iOSDevNotesAndInterviews)
 
-```
+- **recommend clone **
+
+> `git clone --depth 3 https://github.com/DevDragonLi/Dev-Repo`
 
 -  如果你有好的资源,也可以提交PR或者联系我`dragonli_52171@163.com`
 
 
 ## content list 
 
-<details>
-<summary> Git && Markdown </summary>
+
+#### Git && Markdown
 
 |  FILENAME   | 
 |:----|
 |[Git指令使用总结](./Git.md)|
 |[Gitflow -工作流](./Gitflow.md)|
 |[Git命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)|
+|[git-from-the-inside-out](https://maryrosecook.com/blog/post/git-from-the-inside-out)|
 |[Git指令速查图](./images/git_easy.jpg)|
 |[Markdown](./Markdown.md)|
 </details>
 
-<details>
-<summary> iOS面试题目集合 </summary>
-
+#### iOS面试题目集合
 |  FILENAME   | 
 |:----|
 | [MrPeak的面试题目](interview-iOS-1.md) |
@@ -46,10 +45,8 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 | [interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒](interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)|
 | [interview-iOS-12校招攻略43份优质面经汇总iOS开发](interview-iOS-12校招攻略43份优质面经汇总iOS开发.md) |
 
-</details>
 
-<details>
-<summary> iOSNote </summary>
+#### iOSNote
 
 |  FILENAME   | 
 |:----|
@@ -67,7 +64,6 @@ git clone https://github.com/DevDragonLi/Dev-Repo
 | [私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/1-DevDemo)   |
 |[iOSDev-bang技能🌲](./images/iOSDev-bang.png)|
 
-</details>
 
 <details>
 <summary> react-native-Resource </summary>
