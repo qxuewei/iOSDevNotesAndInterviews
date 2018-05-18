@@ -61,10 +61,5 @@ alias pod_install='pod install --verbose --no-repo-update'
 
 ## <a name="iOSDevPic"></a> iOSDevPic
 
-### **push**
-![](./images/Push.png)
-
-### **cache**
-![](./images/cache.png)
 
 ### **AFNetworking** 图片太大,需要的[图片地址](https://coding.net/u/LFL/p/BlogPics/git/)下载即可

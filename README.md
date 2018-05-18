@@ -32,18 +32,18 @@
 #### iOS面试题目集合
 |  FILENAME   | 
 |:----|
-| [MrPeak的面试题目](interview-iOS-1.md) |
-| [interview-iOS-2](interview-iOS-2.md) |
-| [interview-iOS-3](interview-iOS-3.md) |
-| [interview-iOS-4](interview-iOS-4.md) |
-| [interview-iOS-5](interview-iOS-5.md) |
-| [interview-iOS-6](interview-iOS-6.md) |
-| [interview-iOS-7](interview-iOS-7.md) |
-| [interview-iOS-8](interview-iOS-8.md) |
-| [interview-iOS-9-一个渣硕iOS春招总结](interview-iOS-9-一个渣硕iOS春招总结.md) |
-|[interview-iOS-10-iOS面试败北感悟](interview-iOS-10-iOS面试败北感悟.md)|
-| [interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒](interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)|
-| [interview-iOS-12校招攻略43份优质面经汇总iOS开发](interview-iOS-12校招攻略43份优质面经汇总iOS开发.md) |
+| [MrPeak的面试题目](./interview-iOS/interview-iOS-1.md) |
+| [interview-iOS-2](./interview-iOS/interview-iOS-2.md) |
+| [interview-iOS-3](./interview-iOS/interview-iOS-3.md) |
+| [interview-iOS-4](./interview-iOS/interview-iOS-4.md) |
+| [interview-iOS-5](./interview-iOS/interview-iOS-5.md) |
+| [interview-iOS-6](./interview-iOS/interview-iOS-6.md) |
+| [interview-iOS-7](./interview-iOS/interview-iOS-7.md) |
+| [interview-iOS-8](./interview-iOS/interview-iOS-8.md) |
+| [interview-iOS-9-一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md) |
+|[interview-iOS-10-iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)|
+| [interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)|
+| [interview-iOS-12校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md) |
 
 
 #### iOSNote
@@ -54,14 +54,14 @@
 |[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)|
 |[**iOS架构相关**](./iOSNote/iOS_architecture.pdf)  |
 |[**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)  |
-|[**CocoaPods**管理库的使用技巧](./iOSNote/pod/readme.md)   |
+|[**CocoaPods**管理库的使用技巧](./iOSNote/pod/cocoapods.md)   |
 |[Controllers代码结构规范](./iOSNote/readme.md)    |
 | [Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)    |
 | [iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)    |
 | [iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOS-coreAnimationNote.md)   |
 | [单元测试概述](./iOSNote/UnitTesting.md)    |
-| [私有化pod总结笔记](./Pods/Pod&&spec.md)    |
-| [私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/1-DevDemo)   |
+| [私有化pod总结笔记](./iOSNote/Pods/Pod&&spec.md)    |
+| [私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo ) |
 |[iOSDev-bang技能🌲](./images/iOSDev-bang.png)|
 
 

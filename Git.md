@@ -35,6 +35,10 @@
 - `git rm -f [filename]` 文件从版本库中删除
 - `git checkout [filename]`  文件从版本库中恢复[git checkout其实是⽤用版本库⾥里的版本替换⼯工作区的版本]
 - `git log`	显示当前分支的版本历史 
+	- `git log -p FILE` 查看 README.md 的修改历史，例如：
+	
+		> git log -p README.md 
+	
 	-  **git log --pretty=oneline** 
 
 	```
