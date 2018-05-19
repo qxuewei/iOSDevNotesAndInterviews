@@ -1,8 +1,9 @@
 #  iOS Interviews,Git,DevNotes 
 
 </p>
- [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews)](http://github.com/DevDragonLi/iOSDevNotesAndInterviews)
- [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews)](http://github.com/DevDragonLi/iOSDevNotesAndInterviews/fork)
+<p align='center'>
+<img src="http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews">
+<img src="http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews">
 <img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/platform-iOS-ff69b4.svg">
 <img src="https://img.shields.io/badge/language-Swift-abcdef.svg">
@@ -11,70 +12,51 @@
 <img src="https://img.shields.io/github/last-commit/google/skia.svg">
 </p>
 
-## Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/DevDragonLi/iOSDevNotesAndInterviews.svg)](https://starcharts.herokuapp.com/DevDragonLi/iOSDevNotesAndInterviews)
+- **[iOS面试题目集合](#iOSinterview)** `ing`
+- **[iOS技能图谱](#iOSinterview)**
+- **[iOSDevNote](#iOSDevNote)**
+- **[Git](#Git)**
+- **[Markdown](#Markdown)**
+- **[ReactNative](#ReactNative)**
 
 - **recommend clone**
 
 > `git clone --depth 3 https://github.com/DevDragonLi/iOSDevNotesAndInterviews `
 
--  如果你有好的资源,也可以提交PR或者联系我`dragonli_52171@163.com`
+-  如果您在repo中发现了问题，欢迎提交 PR 或者 issue，欢迎大神们多多指点
+
+>  `dragonli_52171@163.com`
+
+## <a name="iOSinterview"></a> iOS面试题目集合
+
+| CATEGORY | FILE |  
+|:----|:----|
+|iOS面试题目集合|[interview-iOS-1-MrPeak面试题](./interview-iOS/interview-iOS-1.md)<br>[interview-iOS-2](./interview-iOS/interview-iOS-2.md)<br>[interview-iOS-3](./interview-iOS/interview-iOS-3.md)<br>[interview-iOS-4](./interview-iOS/interview-iOS-4.md)<br>[interview-iOS-5](./interview-iOS/interview-iOS-5.md)<br>[interview-iOS-6](./interview-iOS/interview-iOS-6.md)<br>[interview-iOS-7](./interview-iOS/interview-iOS-7.md)<br>[interview-iOS-8](./interview-iOS/interview-iOS-8.md)<br>[interview-iOS-9-一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md)<br>[interview-iOS-10-iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)<br>[interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)<br>[interview-iOS-12校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md) |
 
 
-## content list 
+## <a name="iOSDevNote"></a> iOSDevNote
 
+| CATEGORY | FILE |  
+|:----|:----|
+|iOSDevNote|[**iOS架构相关**](./iOSNote/iOS_architecture.pdf)<br>[**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)<br>[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)<br>[Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)<br>[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)<br>[iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOS-coreAnimationNote.md)<br>[单元测试概述](./iOSNote/UnitTesting.md)|
+|CocoaPods 相关 |[**CocoaPods**管理库的使用技巧](./iOSNote/pod/cocoapods.md)<br>[CocoaPods建立自己的Podspec](./iOSNote/CocoaPods/cocoapods-podspec.md)<br> [CocoaPods管理库的使用技巧](./iOSNote/CocoaPods/cocoapods-podspec.md)<br>[私有化`pod`库](./iOSNote/CocoaPods/Pod&&spec.md) <br>[私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo )|
+|iOS技能图谱|[iOS技能图谱-byStuQ](./iOSNote/map-MobileDev-iOSDev.md)<br>[JSPatch作者博客中的技能树](./images/iOSDev-bang.png)|
 
-#### Git && Markdown
+## <a name="Git"></a> Git
 
-|  FILENAME   | 
-|:----|
-|[Git指令使用总结](./Git.md)|
-|[Gitflow -工作流](./Gitflow.md)|
-|[Git命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)|
-|[git-from-the-inside-out](https://maryrosecook.com/blog/post/git-from-the-inside-out)|
-|[Git指令速查图](./images/git_easy.jpg)|
-|[Markdown](./Markdown.md)|
+| CATEGORY | FILE |  
+|:----|:----|
+| Git |[指令使用总结](./Git.md)<br>[Gitflow -工作流](./Gitflow.md)<br>[命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)<br>[git-from-the-inside-out](https://maryrosecook.com/blog/post/git-from-the-inside-out)<br>[Git指令速查图](./images/git_easy.jpg)|
 
+## <a name="Markdown"></a> Markdown
+| CATEGORY | FILE |  
+|:----|:----|
+| Markdown |[Markdown](./other/Markdown.md)|
 
-#### iOS面试题目集合
-|  FILENAME   | 
-|:----|
-| [MrPeak的面试题目](./interview-iOS/interview-iOS-1.md) |
-| [interview-iOS-2](./interview-iOS/interview-iOS-2.md) |
-| [interview-iOS-3](./interview-iOS/interview-iOS-3.md) |
-| [interview-iOS-4](./interview-iOS/interview-iOS-4.md) |
-| [interview-iOS-5](./interview-iOS/interview-iOS-5.md) |
-| [interview-iOS-6](./interview-iOS/interview-iOS-6.md) |
-| [interview-iOS-7](./interview-iOS/interview-iOS-7.md) |
-| [interview-iOS-8](./interview-iOS/interview-iOS-8.md) |
-| [interview-iOS-9-一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md) |
-|[interview-iOS-10-iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)|
-| [interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)|
-| [interview-iOS-12校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md) |
+### <a name="ReactNative"></a> ReactNative 
 
-
-#### iOSNote
-
-|  FILENAME   | 
-|:----|
-|[iOS技能图谱](./iOSNote/map-MobileDev-iOSDev.md)   |
-|[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)|
-|[**iOS架构相关**](./iOSNote/iOS_architecture.pdf)  |
-|[**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)  |
-|[**CocoaPods**管理库的使用技巧](./iOSNote/pod/cocoapods.md)   |
-|[Controllers代码结构规范](./iOSNote/readme.md)    |
-| [Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)    |
-| [iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)    |
-| [iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOS-coreAnimationNote.md)   |
-| [单元测试概述](./iOSNote/UnitTesting.md)    |
-|[CocoaPods建立自己的Podspec&&CocoaPods管理库的使用技巧](./iOSNote/CocoaPods/cocoapods-podspec.md)|
-| [私有化pod](./iOSNote/CocoaPods/Pod&&spec.md)    |
-| [私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo ) |
-|[iOSDev-bang技能🌲](./images/iOSDev-bang.png)|
-
-###  ReactNative
 - [ReactNative-install](./iOSNote/ReactNative-install.md)
+
 - **RN学习资料分享**
 	- [RN中文网](http://reactnative.cn)
 	- [facebook-React-native官网](https://facebook.github.io/react-native/)
@@ -82,9 +64,9 @@
 
 - react-native-training 
 
-	- [戳我一下呀](https://www.gitbook.com/book/unbug/react-native-training/details)
+	- [react-native-training](https://www.gitbook.com/book/unbug/react-native-training/details)
 
-	- [非培训机构视频优酷地址](http://list.youku.com/albumlist/show?id=27615900&ascending=1&page=1)
+	- [video](http://list.youku.com/albumlist/show?id=27615900&ascending=1&page=1)
 
 - 开源资料部分
 
@@ -95,5 +77,4 @@
 	-  移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
 	- 方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
 
-### 如果您在repo中发现了问题，欢迎提交 PR 或者 issue，欢迎大神们多多指点.
 
