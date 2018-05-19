@@ -9,6 +9,7 @@
 - **[base operation](#baseoperation)**    
 - **[branch](#branch)**    
 - **[merge  fetch conflict  reset ](#operation)**   
+- **[rebase](#rebase)**
 - **[tag](#tag)**     
 - **[remote](#remoteoperation)**
 - **[gitconfig](#gitconfig)**    
@@ -125,9 +126,21 @@ master分⽀支内容推送的远程新的master分⽀支
 	- git stash apply stash@{0}  取出某个暂存的代码
 	- git stash pop	 如果使用pop，取出最后一次存在的暂存，同时删除取出的暂存
 
+
+## <a name="rebase"></a> rebase
+
+ >  使用变基rebase可以让提交历史变得更简洁. 
+ > rebase原理就是, 从目标分支和要变基的分支向上查找出共同祖先节点`A`, 然后把要变基的分支到`A`节点的所有提交,提取出相应的修改生成一个副本, 并追加到目标分创建相对应的提交. 此时变基的分支指向目标分支master的后面某一次提交. 此时只要使用修改master指向指针使用merge即可.
+
+ - rebase <目标分支名> [需要移动变基底的分支]
+ 	-  `git rebase master experiment`	
+ - 此时目标分支后面会追加另一个分支的提交. 此时只需要切换到master分支,合并分支即可
+ 	 -  `git checkout master` 
+ 	 -  `git merge experiment`
+    		
 ##  <a name="tag"></a> tag 
 	
-	(标签是版本库的⼀一个快照:指向某个commit的指针,不能移动的指针)
+> 标签是版本库的⼀一个快照:指向某个commit的指针,不能移动的指针
 	
 - `git tag [tag]`  ⽤于新建一个标签，默认为HEAD [标签不是按时间顺序列出，⽽是按字母排序的]
 	- `git log --pretty=oneline --abbrev-commit`   查看`历史提交commit_id `
@@ -155,11 +168,13 @@ master分⽀支内容推送的远程新的master分⽀支
 
 
 ## <a name="remoteoperation"></a> remote
- 
-
-
-
-
+ - 对远程仓库的名称进行修改
+ 	- `git remote rename oldName newName`
+ - 移除一个远程仓库
+ 	- `git remote rm repoName` 
+- 查看某一个仓库更多的信息时
+	- `git remote show origin` 
+ 	
 
 ## <a name="gitconfig"></a> gitconfig
 - `git config --list` 
