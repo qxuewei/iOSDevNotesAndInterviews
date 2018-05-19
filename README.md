@@ -60,7 +60,8 @@
 | [iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)    |
 | [iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOS-coreAnimationNote.md)   |
 | [单元测试概述](./iOSNote/UnitTesting.md)    |
-| [私有化pod总结笔记](./iOSNote/Pods/Pod&&spec.md)    |
+|[CocoaPods建立自己的Podspec](./iOSNote/Pods/cocoapods-podspec.md)|
+| [私有化pod](./iOSNote/Pods/Pod&&spec.md)    |
 | [私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo ) |
 |[iOSDev-bang技能🌲](./images/iOSDev-bang.png)|
 
