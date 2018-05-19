@@ -8,8 +8,9 @@
 
 - **[base operation](#baseoperation)**    
 - **[branch](#branch)**    
-- **[merge  fetch conflict  reset ](#merge&fetch&conflict&reset )**   
+- **[merge  fetch conflict  reset ](#operation)**   
 - **[tag](#tag)**     
+- **[remote](#remoteoperation)**
 - **[gitconfig](#gitconfig)**    
 - **[alias](#alias)**    
 - **[gitignore](#gitignore)**   
@@ -84,7 +85,7 @@ master分⽀支内容推送的远程新的master分⽀支
 
 - `git push origin --delete [branch-name]` 删除远程分支
 
-## <a name="merge&fetch&conflict&reset "></a> merge  fetch conflict  reset 
+## <a name="operation"></a> merge  fetch conflict  reset 
 
 - `git merge [branch name]`  当前分支合并指定的`branch name` 
 
@@ -152,6 +153,14 @@ master分⽀支内容推送的远程新的master分⽀支
 	- `git tag -d [tag]` 删除本地tag
 	- `git push origin :refs/tags/V10.00` 从远程删除。删除命令也是push
 
+
+## <a name="remoteoperation"></a> remote
+ 
+
+
+
+
+
 ## <a name="gitconfig"></a> gitconfig
 - `git config --list` 
 	- Git的设置文件为.gitconfig
@@ -176,21 +185,46 @@ git config --global color.ui true
 ## <a name="gitignore"></a> .gitignore
 
 - 在Git工作区的根目录下创建⼀个特殊的.gitignore⽂文件，然后把要忽略的文件名填进去，Git就会自动忽略这些⽂文件
-- [所有配置⽂文件可以直接在线浏览](https://github.com/github/gitignore)
-- **忽略⽂文件的原则**
-	- 忽略操作系统自动⽣成的文件，比如 MAC系统下的 `.ds_store`
-	- 忽略编译生成的中间⽂文件、可执⾏文件等，也就是如果一个文件是通过另一个⽂件自动⽣成的，那自动生成的⽂文件就没必要放进版本库，比如 Xcode 产生的一些对应工程的缓存文件. 
+- [所有配置文件可以直接在线浏览](https://github.com/github/gitignore)
+- 配置忽略文件规范
+	- 所有空行或者以 ＃ 开头的行都会被 Git 忽略
+	- * :匹配零个或多个任意字符
+	- 可参考如下样板
 	
-	```
-	## Build generated
-	build/
-	DerivedData/
+```
+# 忽略所有以 .c结尾的文件
 
-	```
-	- 忽略你自己的带有敏感信息的配置文件，⽐比如存放⼝令的配置⽂件
+*.c
+	
+# 但是 init.c 会被git追踪
+
+!init.c
+	
+# 只忽略当前文件夹下的TODO文件, 不包括其他文件夹下的TODO例如: subdir/TODO
+
+/TODO
+	
+# 忽略所有在build文件夹下的文件
+
+build/
+	
+# 忽略 doc/note.txt, 但不包括多层下.txt例如: doc/server/arch.txt
+
+doc/*.txt
+	
+# 忽略所有在doc目录下的.pdf文件
+doc/**/*.pdf
+		
+```
+
+- **忽略⽂件的原则**
+	- 忽略操作系统自动⽣成的文件，比如 MAC系统下的 `.ds_store`
+	- 忽略编译生成的中间⽂文件、可执⾏文件等，也就是如果一个文件是通过另一个⽂件自动⽣成的，那自动生成的⽂文件就没必要放进版本库，比如 Xcode 产生的一些对应工程的缓存文件. 忽略你自己的带有敏感信息的配置文件，⽐比如存放⼝令的配置⽂件
 
 
-## 参考
+##  参考
 - [廖雪峰 Git](https://www.liaoxuefeng.com/)
 
 ###  终端如果觉得太繁琐,可以使用可视化工具.`SourceTree`等
+
+
