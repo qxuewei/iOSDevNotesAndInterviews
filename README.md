@@ -1,7 +1,15 @@
 #  iOS Interviews,Git,DevNotes 
 
+</p>
  [![star this repo](http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews)](http://github.com/DevDragonLi/iOSDevNotesAndInterviews)
  [![fork this repo](http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews)](http://github.com/DevDragonLi/iOSDevNotesAndInterviews/fork)
+<img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
+<img src="https://img.shields.io/badge/platform-iOS-ff69b4.svg">
+<img src="https://img.shields.io/badge/language-Swift-abcdef.svg">
+<img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
+<img src="https://img.shields.io/packagist/l/doctrine/orm.svg">
+<img src="https://img.shields.io/github/last-commit/google/skia.svg">
+</p>
 
 ## Stargazers over time
 
@@ -27,7 +35,7 @@
 |[git-from-the-inside-out](https://maryrosecook.com/blog/post/git-from-the-inside-out)|
 |[Git指令速查图](./images/git_easy.jpg)|
 |[Markdown](./Markdown.md)|
-</details>
+
 
 #### iOS面试题目集合
 |  FILENAME   | 
@@ -60,15 +68,12 @@
 | [iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)    |
 | [iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOS-coreAnimationNote.md)   |
 | [单元测试概述](./iOSNote/UnitTesting.md)    |
-|[CocoaPods建立自己的Podspec](./iOSNote/Pods/cocoapods-podspec.md)|
-| [私有化pod](./iOSNote/Pods/Pod&&spec.md)    |
+|[CocoaPods建立自己的Podspec&&CocoaPods管理库的使用技巧](./iOSNote/CocoaPods/cocoapods-podspec.md)|
+| [私有化pod](./iOSNote/CocoaPods/Pod&&spec.md)    |
 | [私有化pod_demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo ) |
 |[iOSDev-bang技能🌲](./images/iOSDev-bang.png)|
 
-
-<details>
-<summary> react-native-Resource </summary>
- 
+###  ReactNative
 - [ReactNative-install](./iOSNote/ReactNative-install.md)
 - **RN学习资料分享**
 	- [RN中文网](http://reactnative.cn)
@@ -90,5 +95,5 @@
 	-  移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
 	- 方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
 
+### 如果您在repo中发现了问题，欢迎提交 PR 或者 issue，欢迎大神们多多指点.
 
-<details>
