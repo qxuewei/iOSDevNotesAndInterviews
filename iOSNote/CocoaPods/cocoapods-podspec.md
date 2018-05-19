@@ -62,4 +62,7 @@ s.requires_arc：是否要求ARC
 `pod trunk register dragonli_52171@163.com 'DevDragonLi' --description='DevDragonLi' macbook pro' --verbose`
 ```	
 - 发布:`pod trunk push nameKit.podspec`	
+
+
+## [CocoaPods管理库的使用技巧](./CocoaPods管理库的使用技巧.md)
 	
