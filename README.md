@@ -16,8 +16,8 @@
 - **[iOS技能图谱](#iOSinterview)**
 - **[iOSDevNote](#iOSDevNote)**
 - **[Git](#Git)**
-- **[Markdown](#Markdown)**
 - **[ReactNative](#ReactNative)**
+- **[other](#other)**
 
 - **recommend clone**
 
@@ -38,9 +38,9 @@
 
 | CATEGORY | FILE |  
 |:----|:----|
-|iOSDevNote|[**iOS架构相关**](./iOSNote/iOS_architecture.pdf)<br>[**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)<br>[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)<br>[Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)<br>[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)<br>[iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/iOS-coreAnimationNote.md)<br>[单元测试概述](./iOSNote/UnitTesting.md)|
+|iOSDevNote|[**iOS架构相关**](./iOSNote/iOS_architecture.pdf)<br>[**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)<br>[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)<br>[Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)<br>[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)<br>[iOS经典Crash分析与总结- QQ`MelonTeam`](./iOSNote/Crash/README.md)<br>[iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/Article/iOS-coreAnimationNote.md)<br>[单元测试概述](./iOSNote/Article/UnitTesting.md)|
 |CocoaPods 相关 |[CocoaPods提交开源的框架之流程](./iOSNote/CocoaPods/cocoapods-podspec.md)<br> [CocoaPods管理库的使用技巧](./iOSNote/CocoaPods/CocoaPods管理库的使用技巧.md)<br>[CocoaPods提交私有的框架之流程](./iOSNote/CocoaPods/Pod&&spec.md) <br>[CocoaPods私有库参考Demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo )|
-|iOS技能图谱|[iOS技能图谱-byStuQ](./iOSNote/map-MobileDev-iOSDev.md)<br>[JSPatch作者博客中的技能树](./images/iOSDev-bang.png)|
+|iOS技能图谱|[iOS技能图谱-byStuQ](./iOSNote/Article/map-MobileDev-iOSDev.md)<br>[JSPatch作者博客中的技能树](./images/iOSDev-bang.png)|
 
 ## <a name="Git"></a> Git
 
@@ -48,7 +48,7 @@
 |:----|:----|
 | Git |[指令使用总结](./Git.md)<br>[Gitflow -工作流](./other/Gitflow.md)<br>[命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)<br>[git-from-the-inside-out](https://maryrosecook.com/blog/post/git-from-the-inside-out)<br>[Git指令速查图](./images/git_easy.jpg)|
 
-## <a name="Markdown"></a> Markdown
+## <a name="other"></a> other
 | CATEGORY | FILE |  
 |:----|:----|
 | Markdown |[Markdown](./other/Markdown.md)|
