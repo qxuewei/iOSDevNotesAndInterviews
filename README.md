@@ -15,6 +15,7 @@
 - **[iOS面试题目集合](#iOSinterview)** `ing`
 - **[iOS技能图谱](#iOSinterview)**
 - **[iOSDevNote](#iOSDevNote)**
+- **[iOS开源框架涉及](#frameWorks)**
 - **[Git](#Git)**
 - **[ReactNative](#ReactNative)**
 - **[other](#other)**
@@ -32,6 +33,21 @@
 | CATEGORY | FILE |  
 |:----|:----|
 |iOS面试题目集合|[interview-iOS-1-MrPeak面试题](./interview-iOS/interview-iOS-1.md)<br>[interview-iOS-2](./interview-iOS/interview-iOS-2.md)<br>[interview-iOS-3](./interview-iOS/interview-iOS-3.md)<br>[interview-iOS-4](./interview-iOS/interview-iOS-4.md)<br>[interview-iOS-5](./interview-iOS/interview-iOS-5.md)<br>[interview-iOS-6](./interview-iOS/interview-iOS-6.md)<br>[interview-iOS-7](./interview-iOS/interview-iOS-7.md)<br>[interview-iOS-8](./interview-iOS/interview-iOS-8.md)<br>[2018一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md)<br>[2018 iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)<br>[2018如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)<br>[2018校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md)<br>[2018秋招iOS面试总结-渣渣本科生](./interview-iOS/interview-iOS-13-2018秋招iOS面试总结-渣渣本科生.md) |
+
+
+## <a name="frameWorks"></a> iOS开源框架涉及
+| CATEGORY | FILE |  
+|:----|:----|
+|SDWebImage|[网络网络状态为WiFi时，显示图片高清图;网络状态为蜂窝移动网络时，显示 图片缩略图解析](./Analyze/SDWebImage/网络网络状态为WiFi时，显示图片高清图;网络状态为蜂窝移动网络时，显示 图片缩略图.md)|
+|MJRefresh|**[MJRefresh源码解析](./Analyze/MJRefresh/MJRefresh.md)**|
+
+
+
+
+
+
+
+
 
 
 ## <a name="iOSDevNote"></a> iOSDevNote
