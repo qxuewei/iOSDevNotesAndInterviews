@@ -76,7 +76,15 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 - 定时轮询会存在延迟 用户体验就不好
 
 ## http的post和get啥区别
-- 无非post带参数,某种层面比get不受限制.  
+- ~~无非post带参数,某种层面比get不受限制~~ 
+
+- 从语义角度分析
+
+	- 安全性:不会引发 server 端的改变 
+	- 幂等:同一个方法请求多次结果相同
+	- 可缓存
+
+
 
 ## 使用atomic一定是线程安全的吗？
 - BOOL 类型 修饰符不影响
