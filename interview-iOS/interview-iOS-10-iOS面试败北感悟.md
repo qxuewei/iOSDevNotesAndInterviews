@@ -1,8 +1,12 @@
 ## iOS面试败北感悟
 
-
-
 - 自实现pow(double, double)
+
+- findMedianSortedArrays (找到两个排序数组的中位数)
+
+- UIContorl -> UIButton
+
+#### 自实现pow(double, double)
 
 
 ```
@@ -20,7 +24,7 @@ func _pow_3(_ base: Double, _ exponent: Int) -> Double {
 
 ```
 
-- findMedianSortedArrays (找到两个排序数组的中位数)
+#### findMedianSortedArrays (找到两个排序数组的中位数)
 
 ```
 
@@ -49,7 +53,7 @@ func findMedianSortedArrays_3(_ array1: [Int], _ array2: [Int]) -> Double {
 
 ```
 
-- UIContorl -> UIButton
+#### UIContorl -> UIButton
 
 ```
 UIButton setTitle的时候才会创建UILabel, setImage的时候才会创建UIImageView, 你为什么吧frame给写死... 不知道UIView有sizeToFit么, 你怎么不实现sizeThatFits, 你是完全不会用吧... 你知道UIButton用AutoLayout布局的时候只要设置origin坐标, 宽高就可以自适应了, 你自定义的时候怎么不实现呢? setBackgroundImage和setImageEdgeInsets

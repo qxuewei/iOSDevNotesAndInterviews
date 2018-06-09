@@ -103,8 +103,8 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 
 ## 如何使用runtime hook一个class的某个方法，又如何hook某个instance的方法？
 ####  这个问题,首先要考虑怎么回答才能不被套路 
-- 考虑 hook是否有公开头文件的类，有的话写一个Utility函数，再使用category，没有的话就建一个类作为新函数载体，
-- 然后先为被hook的类增加函数，再替换。
+- 考虑 hook是否有公开头文件的类，有的话写一个Utility函数，再使用category，
+- 没有的话就建一个类作为新函数载体，然后先为被hook的类增加函数，再替换。
 - 如何hook某个instance的方法，应该可以定义一个函数指针变量(IMP要谈及吧)，hook时将要调用的地址赋给这个变量，调用时把这个变量当作函数来用 (RAC框架 hook 谈及)
 
 ## 聊下HTTP的POST的body体使用form-urlencoded和multipart/form-data的区别。

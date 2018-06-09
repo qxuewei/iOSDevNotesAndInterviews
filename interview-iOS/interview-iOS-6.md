@@ -1,4 +1,5 @@
-## [origin](https://www.jianshu.com/p/1904f5ee7470)
+## 基础问题系列
+> 来源地址:https://www.jianshu.com/p/1904f5ee7470
 
 ###  什么是KVO和KVC？  
 - KVC : 键值编码，是Key Value Coding 的简称，cocoa的标准组成部分，是一种可以直接通过字符串的名字(Key)来访问类属性的机制，而不是通过调用Setter方法、Getter方法进行访问
@@ -52,37 +53,28 @@ addStudent(“zss”)
 ### 如何对iOS设备进行性能测试？
 - Instruments 是应用程序用来动态跟踪和分析 Mac OS X 和 iOS 代码的实用工具。这是一个灵活而强大的工具,它让你可以跟踪一个或多个进程,并检查收集的数据
 
-### 使用过CocoPods吗？它是什么？CocoaPods的原理？
-* CocoaPods 是Mac OS X 和 iOS 应用程序开发的一个第三方库依赖的管理工具，你可以用它来 帮助集中导入、配置以及更新所用到的第三方。
-* CocoaPods 的原理是将所有的依赖库都放到另一个名为Pods的项目中, 然而让主项目依赖Pods项目,
-这样,源码管理工作任务从主项目移到了Pods项目中.
-	* CocoaPods通过一个名为Pods.xcconfig的文件在编译设置所有的依赖和参数
-	* Pods项目最终会编译成一个名为libPods.a的文件, 主项目只要依赖这个.a文件即可.
-	* 对于资源文件, CocoaPods提供了一个名为Pods-resources.sh的bash脚步, 该脚本在每次项目
-　　 编译的时候都会执行,将第三方库的各种资源文件复制到目标目录中.
+### 使用过CocoPods吗？它是什么？CocoaPods的原理？ 
+- [参考](interview-iOS-4.md)
 
 ### 集成三方框架有哪些方法？
 - 手动集成
 - cocoapods集成
+- carthage (iOS8+)
 
-### SDWebImage的原理实现机制，如何解决TableView卡的问题？
--  SDWebImage的实现原理
-	* 从内存（字典）中找图片（当这个图片在本次使用程序的过程中已经被加载过），找到直接使用。
-	* 从沙盒中找（当这个图片在之前使用程序的过程中被加载过），找到使用，缓存到内存中。
-	* 从网络上获取，使用，缓存到内存，缓存到沙盒
+### 如何解决TableView卡的问题？
 
-- 如何解决TableView卡的问题
-	* 复用单元格
-	* 单元格中的视图尽量都使用不透明的，单元格中尽量少使用动画
-	* 图片加载使用异步加载
-	* 滑动时不加载图片，停止滑动时开始加载
-	* 单元格中的内容可以在自定义cell类中的drawRect方法内自己绘制
-	* 如非必要，减少reloadData全部cell，只reloadRowsAtIndexPaths
-	* 如果cell是动态行高，计算出高度后缓存
-	* cell高度固定的话直接使用cell.rowHeight设置高度
+* 复用单元格
+* 单元格中的视图尽量都使用不透明的，单元格中尽量少使用动画
+* 图片加载使用异步加载
+* 滑动时不加载图片，停止滑动时开始加载(需要处理快速滑动的空白)
+* 单元格中的内容可以在自定义cell类中的drawRect方法内自己绘制
+* 如非必要，减少reloadData全部cell，只reloadRowsAtIndexPaths
+* 如果cell是动态行高，计算出高度后缓存
+* cell高度固定的话直接使用cell.rowHeight设置高度
 
 
-### 一个动画怎么实现？  CoreAnimation（核心动画）
+### 一个动画怎么实现？ 
+>  CoreAnimation（核心动画）
 
 ### iOS中常用的数据存储方式有哪些？
 - 综合	
@@ -114,7 +106,7 @@ addStudent(“zss”)
 
 - 重要性
 	- 如果没有Runloop,那么程序一启动就会退出，什么事情都做不了。
-	- 如果有了Runloop，那么相当于在内部有一个死循环，能够保证程序的持续运行
+	- 如果有了Runloop，那么相当于在内部有一个事件循环，能够保证程序的持续运行
 	- main函数中的Runloop a 在UIApplication函数内部就启动了一个Runloop 该函数返回一个int类型的值 b 这个默认启动的Runloop是跟主线程相关联的
 
 
