@@ -30,29 +30,21 @@
 
 | CATEGORY | FILE |  
 |:----|:----|
-|iOS面试题目集合|[interview-iOS-1-MrPeak面试题](./interview-iOS/interview-iOS-1.md)<br>[interview-iOS-2](./interview-iOS/interview-iOS-2.md)<br>[interview-iOS-3](./interview-iOS/interview-iOS-3.md)<br>[interview-iOS-4](./interview-iOS/interview-iOS-4.md)<br>[interview-iOS-5](./interview-iOS/interview-iOS-5.md)<br>[interview-iOS-6](./interview-iOS/interview-iOS-6.md)<br>[interview-iOS-7](./interview-iOS/interview-iOS-7.md)<br>[interview-iOS-8](./interview-iOS/interview-iOS-8.md)<br>[2018一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md)<br>[2018 iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)<br>[2018如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)<br>[2018校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md)<br>[2018秋招iOS面试总结-渣渣本科生](./interview-iOS/interview-iOS-13-2018秋招iOS面试总结-渣渣本科生.md)<br>[2018阿里腾讯百度头条美团iOS面试总结](https://www.jianshu.com/p/a992b5f697ca) |
+|iOS面试题目集合|[interview-iOS-1-MrPeak面试题](./interview-iOS/interview-iOS-1.md)<br>[interview-iOS-2](./interview-iOS/interview-iOS-2.md)<br>[interview-iOS-3](./interview-iOS/interview-iOS-3.md)<br>[interview-iOS-4](./interview-iOS/interview-iOS-4.md)<br>[interview-iOS-5](./interview-iOS/interview-iOS-5.md)<br>[interview-iOS-6](./interview-iOS/interview-iOS-6.md)<br>[2018.4月份iOS面试经历](./interview-iOS/interview-iOS-7.md)<br>[我的iOS面试之旅(2018 -04)](./interview-iOS/interview-iOS-8.md)<br>[2018一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md)<br>[2018 iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)<br>[2018如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)<br>[2018校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md)<br>[2018秋招iOS面试总结-渣渣本科生](./interview-iOS/interview-iOS-13-2018秋招iOS面试总结-渣渣本科生.md)<br>[2018阿里腾讯百度头条美团iOS面试总结](https://www.jianshu.com/p/a992b5f697ca) |
 
 
 ## <a name="frameWorks"></a> iOS开源框架涉及
 | CATEGORY | FILE |  
 |:----|:----|
-|SDWebImage|[网络网络状态为WiFi时，显示图片高清图;网络状态为蜂窝移动网络时，显示 图片缩略图解析](./Analyze/SDWebImage/网络网络状态为WiFi时，显示图片高清图;网络状态为蜂窝移动网络时，显示 图片缩略图.md)|
+|SDWebImage|**[网络网络状态为WiFi时，显示图片高清图;网络状态为蜂窝移动网络时，显示 图片缩略图解析](./Analyze/SDWebImage/网络网络状态不同加载图片.md)**|
 |MJRefresh|**[MJRefresh源码解析](./Analyze/MJRefresh/MJRefresh.md)**|
-
-
-
-
-
-
-
-
 
 
 ## <a name="iOSDevNote"></a> iOSDevNote
 
 | CATEGORY | FILE |  
 |:----|:----|
-|iOSDevNote|[**iOS架构相关**](./iOSNote/iOS_architecture.pdf)<br>[**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)<br>[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)<br>[Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)<br>[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)<br>[iOS经典Crash分析与总结- QQ`MelonTeam`](./iOSNote/crash/README.md)<br>[iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/Article/iOS-coreAnimationNote.md)<br>[单元测试概述](./iOSNote/Article/UnitTesting.md)|
+|iOSDevNote|[**iOS架构相关**](./iOSNote/iOS_architecture.pdf)<br>[**掘金客户端体积瘦身**](./iOSNote/appThin/readme.md)<br>[**iOSDevCodeRepo**](https://github.com/DevDragonLi/iOSDevDemo)<br>[Core Animation框架结构及性能调优11张大图详解](https://github.com/DevDragonLi/Core-AnimationPerformanceOptimization)<br>[iOS_StaticLibrary](./iOSNote/iOS_StaticLibrary/readme.md)<br>[iOS经典Crash分析与总结- QQ`MelonTeam`](./iOSNote/crash/README.md)<br>[iOS核心动画高级技巧阅读笔记(**性能调优**,**高效绘制**,**图像IO**,**图层性能**)](./iOSNote/Article/iOS-coreAnimationNote.md)<br>[单元测试概述](./iOSNote/Article/UnitTesting.md)<br>[**iOS12**](./iOSNote/iOS12/readme.md)|
 |CocoaPods 相关 |[CocoaPods提交开源的框架之流程](./iOSNote/CocoaPods/cocoapods-podspec.md)<br> [CocoaPods管理库的使用技巧](./iOSNote/CocoaPods/CocoaPods管理库的使用技巧.md)<br>[CocoaPods提交私有的框架之流程](./iOSNote/CocoaPods/Pod&&spec.md) <br>[CocoaPods私有库参考Demo](https://github.com/DevDragonLi/iOSDevDemo/tree/master/1-DevDemo/PodPrivate_demo )|
 |iOS技能图谱|[iOS技能图谱-byStuQ](./iOSNote/Article/map-MobileDev-iOSDev.md)<br>[JSPatch作者博客中的技能树](./images/iOSDev-bang.png)|
 
@@ -71,7 +63,7 @@
 ### <a name="ReactNative"></a> ReactNative 
 
 <details>
-<summary> 点我嘛 </summary>
+<summary> 点我展开 RN </summary>
 
 - [ReactNative-install](./iOSNote/ReactNative-install.md)
 
