@@ -1,5 +1,21 @@
 # Markdown
 
+## Markdown 文件自动生成目录？
+
+> 部分`file`,可能会有错乱,还需要手动纠正一下.
+
+>  [参考目录 example](https://github.com/DevDragonLi/iOSDevNotesAndInterviews)
+
+- [下载和安装 pandoc](https://github.com/jgm/pandoc/releases)
+
+- `pandoc --version` ,确认已安装 
+- 生成链接目录
+	- `pandoc -s --toc README.md -o README.md` 
+	- `-depth=[数字]` ,可以指定级🌲
+	- `pandoc -s --toc --toc-depth=5 README.md -o README.md `
+
+
+
 ###  [Markdown 基本语法](https://github.com/younghz/Markdown)
 
 
