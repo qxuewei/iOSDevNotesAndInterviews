@@ -1,22 +1,21 @@
 
 # [MrPeak的题目出处](https://zhuanlan.zhihu.com/p/22834934)
 
-				
-# Question list
+- Question list
 
-- 谈下iOS开发中知道的哪些锁? 哪个性能最差?SD和AFN使用的哪个? 一般开发中你最常用哪个? 哪个锁apple存在问题又是什么问题?
-- iOS下如何实现指定线程数目的线程池?
-- 如何用HTTP实现长连接？
-- http的post和get啥区别
-- 使用atomic一定是线程安全的吗？
-- 数据库建表的时候索引有什么用？
-- 介绍下iOS设备获取唯一设备号的历史变迁
-- 如何使用runtime hook一个class的某个方法，又如何hook某个instance的方法？
-- 聊下HTTP的POST的body体使用form-urlencoded和multipart/form-data的区别。
-- 通过[UIImage imageNamed:]生成的对象什么时候被释放？
-- applicationWillEnterForeground和applicationDidBecomeActive都会在哪些场景下被调用？举例越多越好。
-- 如何终止正在运行的工作线程？
-- iOS下所有的本地持久化方案。
+	- 谈下iOS开发中知道的哪些锁? 哪个性能最差?SD和AFN使用的哪个? 一般开发中你最常用哪个? 哪个锁apple存在问题又是什么问题?
+	- iOS下如何实现指定线程数目的线程池?
+	- 如何用HTTP实现长连接？
+	- http的post和get啥区别
+	- 使用atomic一定是线程安全的吗？
+	- 数据库建表的时候索引有什么用？
+	- 介绍下iOS设备获取唯一设备号的历史变迁
+	- 如何使用runtime hook一个class的某个方法，又如何hook某个instance的方法？
+	- 聊下HTTP的POST的body体使用form-urlencoded和multipart/form-data的区别。
+	- 通过[UIImage imageNamed:]生成的对象什么时候被释放？
+	- applicationWillEnterForeground和applicationDidBecomeActive都会在哪些场景下被调用？举例越多越好。
+	- 如何终止正在运行的工作线程？
+	- iOS下所有的本地持久化方案。
 
 
 
