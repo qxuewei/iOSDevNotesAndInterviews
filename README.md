@@ -4,7 +4,6 @@
 <p align='left'>
 <img src="http://githubbadges.com/star.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews">
 <img src="http://githubbadges.com/fork.svg?user=DevDragonLi&repo=iOSDevNotesAndInterviews">
-<img src="https://img.shields.io/badge/build-passing-brightgreen.svg">
 <img src="https://img.shields.io/badge/PR-welcome%20!-brightgreen.svg?colorA=a0cd34">
 <img src="https://img.shields.io/packagist/l/doctrine/orm.svg">
 <img src="https://img.shields.io/github/last-commit/google/skia.svg">
@@ -18,19 +17,14 @@
 - **[ReactNative](#ReactNative)**
 - **[other](#other)**
 
-- **recommend clone**
+> Recommend clone 
+> `git clone --depth 3 https://github.com/DevDragonLi/iOSDevNotesAndInterviews`
 
-> `git clone --depth 3 https://github.com/DevDragonLi/iOSDevNotesAndInterviews `
-
--  我会不断更新这个仓库中，如果想要关注可以点 `star`
--  如果您在repo中发现了问题，欢迎提交 PR 或者 issue，欢迎大神们多多指点
->  `dragonli_52171@163.com`
-
-## <a name="iOSinterview"></a> iOS面试题目集合
+## <a name="iOSinterview"></a> [iOS面试题目集合和开发技能列表](./interview-iOS/README.md)
 
 | CATEGORY | FILE |  
 |:----|:----|
-|iOS面试题目集合|[interview-iOS-1-MrPeak面试题](./interview-iOS/interview-iOS-1.md)<br>[interview-iOS-2](./interview-iOS/interview-iOS-2.md)<br>[interview-iOS-3](./interview-iOS/interview-iOS-3.md)<br>[interview-iOS-4](./interview-iOS/interview-iOS-4.md)<br>[interview-iOS-5](./interview-iOS/interview-iOS-5.md)<br>[interview-iOS-6](./interview-iOS/interview-iOS-6.md)<br>[2018.4月份iOS面试经历](./interview-iOS/interview-iOS-7.md)<br>[我的iOS面试之旅(2018 -04)](./interview-iOS/interview-iOS-8.md)<br>[2018一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md)<br>[2018 iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)<br>[2018如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)<br>[2018校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md)<br>[2018秋招iOS面试总结-渣渣本科生](./interview-iOS/interview-iOS-13-2018秋招iOS面试总结-渣渣本科生.md)<br>[2018阿里腾讯百度头条美团iOS面试总结](https://www.jianshu.com/p/a992b5f697ca) |
+|iOS面试题目集合|[interview-iOS-1-MrPeak面试题](./interview-iOS/interview-iOS-1.md)<br>[interview-iOS-2](./interview-iOS/interview-iOS-2.md)<br>[interview-iOS-3](./interview-iOS/interview-iOS-3.md)<br>[interview-iOS-4](./interview-iOS/interview-iOS-4.md)<br>[interview-iOS-5](./interview-iOS/interview-iOS-5.md)<br>[interview-iOS-6](./interview-iOS/interview-iOS-6.md)<br>[2018.4月份iOS面试经历](./interview-iOS/interview-iOS-7-2018-4月份iOS面试经历.md)<br>[我的iOS面试之旅(2018 -04)](./interview-iOS/interview-iOS-8-我的iOS面试之旅.md)<br>[2018一个渣硕iOS春招总结](./interview-iOS/interview-iOS-9-一个渣硕iOS春招总结.md)<br>[2018 iOS面试败北感悟](./interview-iOS/interview-iOS-10-iOS面试败北感悟.md)<br>[2018如何在天猫、蚂蚁金服、百度等大厂面试中被拒](./interview-iOS/interview-iOS-11-如何在天猫、蚂蚁金服、百度等大厂面试中被拒.md)<br>[2018校招攻略43份优质面经汇总iOS开发](./interview-iOS/interview-iOS-12校招攻略43份优质面经汇总iOS开发.md)<br>[2018秋招iOS面试总结-渣渣本科生](./interview-iOS/interview-iOS-13-2018秋招iOS面试总结-渣渣本科生.md)<br>[2018阿里腾讯百度头条美团iOS面试总结](interview-iOS-14-阿里腾讯百度头条美团iOS面试总结.md)<br> |
 
 
 ## <a name="frameWorks"></a> iOS开源框架涉及
@@ -62,29 +56,23 @@
 
 ### <a name="ReactNative"></a> ReactNative 
 
-<details>
-<summary> 点我展开 RN </summary>
-
 - [ReactNative-install](./iOSNote/ReactNative-install.md)
+- [RN中文网](http://reactnative.cn)
+- [facebook-React-native官网](https://facebook.github.io/react-native/)
+- [极客学院](http://wiki.jikexueyuan.com/project/react-native/)
+- [react-native-training](https://www.gitbook.com/book/unbug/react-native-training/details)
+- [video](http://list.youku.com/albumlist/show?id=27615900&ascending=1&page=1)
+- [官方Examples](https://github.com/facebook/react-native/tree/master/Examples)
+- **ReactNativeSources文件夹明细(迁移文件到coding)**  [地址](https://coding.net/u/LFL/p/GitHubRepo/git)
 
-- **RN学习资料分享**
-	- [RN中文网](http://reactnative.cn)
-	- [facebook-React-native官网](https://facebook.github.io/react-native/)
-	- [极客学院](http://wiki.jikexueyuan.com/project/react-native/)
+```
 
-- react-native-training 
+1.【简寻沙龙】《加速创业的魔法-React Native》 张旭.pdf
+2. 移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
+3.方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
 
-	- [react-native-training](https://www.gitbook.com/book/unbug/react-native-training/details)
+```
 
-	- [video](http://list.youku.com/albumlist/show?id=27615900&ascending=1&page=1)
+## 如果您在repo中发现了问题，欢迎提交 PR 或者 issue，欢迎大神们多多指点
 
-- 开源资料部分
-
-	- [官方参考](https://github.com/facebook/react-native/tree/master/Examples)
-
-	- `ReactNativeSources文件夹明细(迁移文件到coding)`[地址](https://coding.net/u/LFL/p/GitHubRepo/git)
-	- 【简寻沙龙】《加速创业的魔法-React Native》 张旭.pdf
-	-  移动端会场03 朱柯军 - 《天猫 React Native 实践与探索》
-	- 方志刚）React Native - iOS 开发吐槽大会  (2016-11.11 更新)
-
-<details>
+- dragonli_52171@163.com
