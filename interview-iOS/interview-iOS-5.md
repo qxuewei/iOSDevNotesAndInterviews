@@ -1,16 +1,16 @@
 # interview-iOS - 5
 
-# Question list
+-  Question list
 
-- 对数组中的元素去重复 (四种)
--  请简单写出增、删、改、查的SQL语句
-- 与 NSURLConnection 相比，NSURLsession 改进哪些?
-- 使用drawRect有什么影响？
-- 什么时候会报unrecognized selector的异常？如何避免?
--  界面多个网络请求,如何处理刷新的?
--  如果tableView界面网络请求有缓存数据逻辑?
--  init方法私有化?
--  线程中栈与堆是公有的还是私有的 ?
+	- 对数组中的元素去重复 (四种)
+	-  请简单写出增、删、改、查的SQL语句
+	- 与 NSURLConnection 相比，NSURLsession 改进哪些?
+	- 使用drawRect有什么影响？
+	- 什么时候会报unrecognized selector的异常？如何避免?
+	-  界面多个网络请求,如何处理刷新的?
+	-  如果tableView界面网络请求有缓存数据逻辑?
+	-  init方法私有化?
+	-  线程中栈与堆是公有的还是私有的 ?
 # 宝库iOS开发笔试题
 
 ## 对数组中的元素去重复 (2017年初面试北京奥鹏在线教育笔试题)
@@ -200,7 +200,8 @@ dispatch_group_t group = dispatch_group_create();
 - 栈私有, 堆公有  
 
 
+## 链接
 
-
-
-
+- [面试题系列目录](README.md)
+- **上一份**: [interview-iOS-4](interview-iOS-4.md)
+- **下一份**: [interview-iOS-6](interview-iOS-6.md)

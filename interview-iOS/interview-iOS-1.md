@@ -145,4 +145,7 @@ dispatch_semaphore_signal(signal)：可以理解为 unlock,会使得 signal 值 
 
 
 
+## 链接
 
+- [面试题系列目录](README.md)
+- **下一份**: [interview-iOS-2](interview-iOS-2.md)

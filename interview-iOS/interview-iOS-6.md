@@ -1,4 +1,4 @@
-## 基础问题系列
+# 基础问题系列
 > 来源地址:https://www.jianshu.com/p/1904f5ee7470
 
 ###  什么是KVO和KVC？  
@@ -131,4 +131,12 @@ addStudent(“zss”)
 * 如果没有创建一个空白的view。
 * 调用viewDidLoad方法。
 * 最后返回view
+
+
+
+## 链接
+
+- [面试题系列目录](README.md)
+- **上一份**: [interview-iOS-5](interview-iOS-5.md)
+- **下一份**: [2018-4月份iOS面试经历](interview-iOS-7-2018-4月份iOS面试经历.md)
 

@@ -1,12 +1,14 @@
-# Question list
+## interview-iOS-3 
 
-- weak修饰的释放则自动被置为nil的实现原理
-- HTTPS的加密原理
-- 网络通讯中加密方式有哪些，各自的原理?
-- 谈下开发中iOS缓存的理解
-- 你认为开发中那些导致crash?
-- 分析下SDWebImage (q3:内部做Decoder的原因 (典型的空间换时间)) 
-- crash的收集和定位bug的方式谈下	
+- Question list
+
+	- weak修饰的释放则自动被置为nil的实现原理
+	- HTTPS的加密原理
+	- 网络通讯中加密方式有哪些，各自的原理?
+	- 谈下开发中iOS缓存的理解
+	- 你认为开发中那些导致crash?
+	- 分析下SDWebImage (q3:内部做Decoder的原因 (典型的空间换时间)) 
+	- crash的收集和定位bug的方式谈下	
 
 
 ## weak修饰的释放则自动被置为nil的实现原理
@@ -154,11 +156,8 @@ void UncaughtExceptionHandler(NSException *exception) {
 
 
 
+## 链接
 
-
-
-
-
-  
-  
-
+- [面试题系列目录](README.md)
+- **上一份**: [interview-iOS-1](interview-iOS-1.md)
+- **下一份**: [interview-iOS-3](interview-iOS-3.md)

@@ -1,4 +1,4 @@
-# 2018.4月份iOS面试经历
+# 2018-4月份iOS面试经历
 
 > 作者：Xcode_boy
 链接：https://juejin.im/post/5adaed6a518825673123c757
@@ -85,4 +85,8 @@ NSLog(@"%@", weakString);
 -  class 修饰的计算属性被重写时，可以使用 static 让其变为静态属性。
 -  class 修饰的类方法被重写时，可以使用 static 让方法变为静态方法。
 
+## 链接
 
+- [面试题系列目录](README.md)
+- **上一份**: [interview-iOS-6](interview-iOS-6.md)
+- **下一份**: [我的iOS面试之旅](interview-iOS-8-我的iOS面试之旅.md)

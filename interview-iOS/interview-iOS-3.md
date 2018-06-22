@@ -1,14 +1,14 @@
 
 # interview-iOS PartThree (profound understanding) 
 
-## Question list
+- Question list
 
-- SEL和Method和IMP分别说下再谈下对IMP的理解?
-- Autorelease的原理 ?
--  ARC的工作原理
--  weak弱引用的代码逻辑实现?
--  大文件离线下载怎么处理?会遇到哪些问题?又如何解决
--  Socket建立网络连接的步骤
+	- SEL和Method和IMP分别说下再谈下对IMP的理解?
+	- Autorelease的原理 ?
+	-  ARC的工作原理
+	-  weak弱引用的代码逻辑实现?
+	-  大文件离线下载怎么处理?会遇到哪些问题?又如何解决
+	-  Socket建立网络连接的步骤
 
 
 
@@ -299,9 +299,8 @@ NSData   *dataStream  = [@8 dataUsingEncoding:NSUTF8StringEncoding];
 
 
 
+## 链接
 
-
-
-  
-  
-
+- [面试题系列目录](README.md)
+- **上一份**: [interview-iOS-2](interview-iOS-2.md)
+- **下一份**: [interview-iOS-4](interview-iOS-4.md)
